@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper and this software archive."
+title: "PD cortico-cerebellar connectome-gradient study — analysis code"
+authors:
+  - family-names: "[PLACEHOLDER]"
+    given-names: "[PLACEHOLDER]"
+    orcid: "https://orcid.org/[PLACEHOLDER]"
+    affiliation: "Beijing Tiantan Hospital, Capital Medical University"
+version: "1.0.0"
+date-released: "[PLACEHOLDER — release date]"
+license: "[PLACEHOLDER — e.g. MIT]"
+repository-code: "https://github.com/[PLACEHOLDER]"
+identifiers:
+  - type: doi
+    value: "[PLACEHOLDER — Zenodo DOI]"
+    description: "Zenodo archive of this release"
+preferred-citation:
+  type: article
+  title: "[PLACEHOLDER — paper title]"
+  authors:
+    - family-names: "[PLACEHOLDER]"
+      given-names: "[PLACEHOLDER]"
+  journal: "[PLACEHOLDER — e.g. Nature Communications]"
+  year: [PLACEHOLDER]
+  doi: "[PLACEHOLDER — article DOI]"

@@ -1,0 +1,25 @@
+# Data — never commit (subject-level or large; use Zenodo / controlled-access instead)
+*.npy
+*.nii
+*.nii.gz
+*.xlsx
+*.csv
+!requirements*.txt
+02_data_raw/
+ppmi/
+**/Session/
+**/gradient_results/
+**/gm_volumes_283/
+**/surrogates*
+
+# Env / build
+__pycache__/
+*.pyc
+.venv*/
+*/out/
+*/tmp/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
