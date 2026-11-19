@@ -1,0 +1,619 @@
+﻿files,field,definition
+Supplementary_Data_S01_atlas_and_networks.csv,anatomical_description,Original atlas anatomical description.
+Supplementary_Data_S01_atlas_and_networks.csv,atlas_source,Original source atlas family.
+Supplementary_Data_S01_atlas_and_networks.csv,cerebellar_system,Membership in the fixed 31-region cerebellar system.
+Supplementary_Data_S01_atlas_and_networks.csv,external_target,Included among the 222 common external targets.
+Supplementary_Data_S01_atlas_and_networks.csv,gyrus,Original atlas gyrus/substructure description.
+Supplementary_Data_S01_atlas_and_networks.csv,lobe,Original atlas lobe label.
+Supplementary_Data_S01_atlas_and_networks.csv,network,Fixed functional network or anatomical target class.
+Supplementary_Data_S01_atlas_and_networks.csv,roi_id,One-based region label in the fixed 283-region atlas; not a participant identifier.
+Supplementary_Data_S01_atlas_and_networks.csv,roi_name,Original atlas abbreviation.
+Supplementary_Data_S01_atlas_and_networks.csv,somatomotor_system,Membership in the fixed 30-region somatomotor system.
+Supplementary_Data_S01_atlas_and_networks.csv,structure,Broad anatomical class.
+Supplementary_Data_S01_atlas_and_networks.csv,voxel_count_2mm,Original atlas voxel count at 2 mm isotropic resolution.
+Supplementary_Data_S02_disease_gradients.csv,anatomical_description,Original atlas anatomical description.
+Supplementary_Data_S02_disease_gradients.csv,covariates,Adjustment variables; each clinical model includes only one imaging predictor.
+Supplementary_Data_S02_disease_gradients.csv,df,Residual degrees of freedom for the disease-gradient OLS coefficient (470); conventional OLS standard errors and two-sided t inference.
+Supplementary_Data_S02_disease_gradients.csv,effect_direction,Contrast or coefficient orientation.
+Supplementary_Data_S02_disease_gradients.csv,estimate,"Unstandardized adjusted PD-minus-HC regression coefficient, in the units of the modeled measure."
+Supplementary_Data_S02_disease_gradients.csv,family_id,Disease-gradient correction family identifier; each gradient is a separate family.
+Supplementary_Data_S02_disease_gradients.csv,family_n,"283 regions per gradient; G1, G2 and G3 are separate disease-comparison BH families."
+Supplementary_Data_S02_disease_gradients.csv,gradient,"Aligned connectivity gradient G1, G2 or G3."
+Supplementary_Data_S02_disease_gradients.csv,n,Number of participants included in the model.
+Supplementary_Data_S02_disease_gradients.csv,n_HC,Number of healthy controls.
+Supplementary_Data_S02_disease_gradients.csv,n_PD,Number of PD participants.
+Supplementary_Data_S02_disease_gradients.csv,network,Fixed functional network or anatomical target class.
+Supplementary_Data_S02_disease_gradients.csv,p_two_sided,Unadjusted two-sided t-test P value.
+Supplementary_Data_S02_disease_gradients.csv,q_BH,BH-adjusted P value across all 283 regions within the stated disease gradient.
+Supplementary_Data_S02_disease_gradients.csv,roi_id,One-based region label in the fixed 283-region atlas; not a participant identifier.
+Supplementary_Data_S02_disease_gradients.csv,roi_name,Original atlas abbreviation.
+Supplementary_Data_S02_disease_gradients.csv,significant_q05,Whether the stated q value is below 0.05; S09/S10 use q_BH8.
+Supplementary_Data_S02_disease_gradients.csv,standard_errors,Covariance/standard error method used in the original analysis.
+Supplementary_Data_S02_disease_gradients.csv,t,Coefficient divided by its standard error.
+Supplementary_Data_S02_disease_gradients.csv,unit,Units of the modeled imaging measure or raw coefficient.
+Supplementary_Data_S03_wholebrain_edge_FC.csv,HC_adjusted_mean,HC fitted mean at the pooled sample covariate reference.
+Supplementary_Data_S03_wholebrain_edge_FC.csv,HC_raw_mean,Unadjusted mean across HC participants.
+Supplementary_Data_S03_wholebrain_edge_FC.csv,HC_raw_sd,Unadjusted sample standard deviation across HC participants.
+Supplementary_Data_S03_wholebrain_edge_FC.csv,PD_adjusted_mean,PD fitted mean at the same pooled sample covariate reference.
+Supplementary_Data_S03_wholebrain_edge_FC.csv,PD_raw_mean,Unadjusted mean across PD participants.
+Supplementary_Data_S03_wholebrain_edge_FC.csv,PD_raw_sd,Unadjusted sample standard deviation across PD participants.
+Supplementary_Data_S03_wholebrain_edge_FC.csv,ci95_high,"Upper pointwise 95% t confidence limit of estimate (adjusted PD minus HC), using HC3 covariance and the row-specific residual df; not multiplicity-adjusted."
+Supplementary_Data_S03_wholebrain_edge_FC.csv,ci95_low,"Lower pointwise 95% t confidence limit of estimate (adjusted PD minus HC), using HC3 covariance and the row-specific residual df; not multiplicity-adjusted."
+Supplementary_Data_S03_wholebrain_edge_FC.csv,covariates,Adjustment variables; each clinical model includes only one imaging predictor.
+Supplementary_Data_S03_wholebrain_edge_FC.csv,df,Residual degrees of freedom used for two-sided t inference.
+Supplementary_Data_S03_wholebrain_edge_FC.csv,effect_direction,Contrast or coefficient orientation.
+Supplementary_Data_S03_wholebrain_edge_FC.csv,estimate,"Unstandardized adjusted PD-minus-HC regression coefficient, in the units of the modeled measure."
+Supplementary_Data_S03_wholebrain_edge_FC.csv,family_n,"39,903 unique undirected whole-brain edges; correction is not restricted to displayed G3-selected edges."
+Supplementary_Data_S03_wholebrain_edge_FC.csv,model,Original model or sensitivity-analysis definition.
+Supplementary_Data_S03_wholebrain_edge_FC.csv,n,Number of participants included in the model.
+Supplementary_Data_S03_wholebrain_edge_FC.csv,n_HC,Number of healthy controls.
+Supplementary_Data_S03_wholebrain_edge_FC.csv,n_PD,Number of PD participants.
+Supplementary_Data_S03_wholebrain_edge_FC.csv,name_i,Original atlas name of first edge endpoint.
+Supplementary_Data_S03_wholebrain_edge_FC.csv,name_j,Original atlas name of second edge endpoint.
+Supplementary_Data_S03_wholebrain_edge_FC.csv,network_i,Fixed network/class of first edge endpoint.
+Supplementary_Data_S03_wholebrain_edge_FC.csv,network_j,Fixed network/class of second edge endpoint.
+Supplementary_Data_S03_wholebrain_edge_FC.csv,p_two_sided,Unadjusted two-sided t-test P value.
+Supplementary_Data_S03_wholebrain_edge_FC.csv,q_BH,"BH-adjusted P value from all 39,903 unique undirected whole-brain edges."
+Supplementary_Data_S03_wholebrain_edge_FC.csv,roi_i,First endpoint atlas label.
+Supplementary_Data_S03_wholebrain_edge_FC.csv,roi_j,Second endpoint atlas label.
+Supplementary_Data_S03_wholebrain_edge_FC.csv,se,HC3 robust standard error of the unstandardized adjusted PD-minus-HC coefficient.
+Supplementary_Data_S03_wholebrain_edge_FC.csv,significant_q05,Whether the stated q value is below 0.05; S09/S10 use q_BH8.
+Supplementary_Data_S03_wholebrain_edge_FC.csv,standard_errors,Covariance/standard error method used in the original analysis.
+Supplementary_Data_S03_wholebrain_edge_FC.csv,standardized_effect,"Adjusted PD-minus-HC coefficient divided by the original pooled within-group SD of the modeled FC measure; a standardized adjusted effect, not an unadjusted Cohen d."
+Supplementary_Data_S03_wholebrain_edge_FC.csv,t,Coefficient divided by its standard error.
+Supplementary_Data_S03_wholebrain_edge_FC.csv,touches_G3_selected19,At least one edge endpoint belongs to the original 19 G3 disease-difference regions.
+Supplementary_Data_S03_wholebrain_edge_FC.csv,unit,Units of the modeled imaging measure or raw coefficient.
+Supplementary_Data_S04_G3_selected19_edge_display.csv,HC_adjusted_mean,HC fitted mean at the pooled sample covariate reference.
+Supplementary_Data_S04_G3_selected19_edge_display.csv,HC_raw_mean,Unadjusted mean across HC participants.
+Supplementary_Data_S04_G3_selected19_edge_display.csv,HC_raw_sd,Unadjusted sample standard deviation across HC participants.
+Supplementary_Data_S04_G3_selected19_edge_display.csv,PD_adjusted_mean,PD fitted mean at the same pooled sample covariate reference.
+Supplementary_Data_S04_G3_selected19_edge_display.csv,PD_raw_mean,Unadjusted mean across PD participants.
+Supplementary_Data_S04_G3_selected19_edge_display.csv,PD_raw_sd,Unadjusted sample standard deviation across PD participants.
+Supplementary_Data_S04_G3_selected19_edge_display.csv,ci95_high,"Upper pointwise 95% t confidence limit of estimate (adjusted PD minus HC), using HC3 covariance and the row-specific residual df; not multiplicity-adjusted."
+Supplementary_Data_S04_G3_selected19_edge_display.csv,ci95_low,"Lower pointwise 95% t confidence limit of estimate (adjusted PD minus HC), using HC3 covariance and the row-specific residual df; not multiplicity-adjusted."
+Supplementary_Data_S04_G3_selected19_edge_display.csv,covariates,Adjustment variables; each clinical model includes only one imaging predictor.
+Supplementary_Data_S04_G3_selected19_edge_display.csv,df,Residual degrees of freedom used for two-sided t inference.
+Supplementary_Data_S04_G3_selected19_edge_display.csv,effect_direction,Contrast or coefficient orientation.
+Supplementary_Data_S04_G3_selected19_edge_display.csv,estimate,"Unstandardized adjusted PD-minus-HC regression coefficient, in the units of the modeled measure."
+Supplementary_Data_S04_G3_selected19_edge_display.csv,family_n,"39,903 unique undirected whole-brain edges; correction is not restricted to displayed G3-selected edges."
+Supplementary_Data_S04_G3_selected19_edge_display.csv,model,Original model or sensitivity-analysis definition.
+Supplementary_Data_S04_G3_selected19_edge_display.csv,n,Number of participants included in the model.
+Supplementary_Data_S04_G3_selected19_edge_display.csv,n_HC,Number of healthy controls.
+Supplementary_Data_S04_G3_selected19_edge_display.csv,n_PD,Number of PD participants.
+Supplementary_Data_S04_G3_selected19_edge_display.csv,p_two_sided,Unadjusted two-sided t-test P value.
+Supplementary_Data_S04_G3_selected19_edge_display.csv,q_BH,"BH-adjusted P value from all 39,903 unique undirected whole-brain edges."
+Supplementary_Data_S04_G3_selected19_edge_display.csv,se,HC3 robust standard error of the unstandardized adjusted PD-minus-HC coefficient.
+Supplementary_Data_S04_G3_selected19_edge_display.csv,seed_name,Original atlas abbreviation of seed.
+Supplementary_Data_S04_G3_selected19_edge_display.csv,seed_network,Fixed network of seed region.
+Supplementary_Data_S04_G3_selected19_edge_display.csv,seed_roi,One-based atlas label of a seed in the 19 discovery G3-difference regions. Display rows can show the same undirected edge from both selected endpoints.
+Supplementary_Data_S04_G3_selected19_edge_display.csv,significant_q05,Whether the stated q value is below 0.05; S09/S10 use q_BH8.
+Supplementary_Data_S04_G3_selected19_edge_display.csv,standard_errors,Covariance/standard error method used in the original analysis.
+Supplementary_Data_S04_G3_selected19_edge_display.csv,standardized_effect,"Adjusted PD-minus-HC coefficient divided by the original pooled within-group SD of the modeled FC measure; a standardized adjusted effect, not an unadjusted Cohen d."
+Supplementary_Data_S04_G3_selected19_edge_display.csv,t,Coefficient divided by its standard error.
+Supplementary_Data_S04_G3_selected19_edge_display.csv,target_name,Original atlas abbreviation of target.
+Supplementary_Data_S04_G3_selected19_edge_display.csv,target_network,Fixed target network/class.
+Supplementary_Data_S04_G3_selected19_edge_display.csv,target_roi,One-based atlas label of the other endpoint; self-connections are excluded.
+Supplementary_Data_S04_G3_selected19_edge_display.csv,unit,Units of the modeled imaging measure or raw coefficient.
+Supplementary_Data_S05_ROI_to_network_mean_FC.csv,G3_selected19,Seed belongs to the original 19 G3 disease-difference regions.
+Supplementary_Data_S05_ROI_to_network_mean_FC.csv,HC_adjusted_mean,HC fitted mean at the pooled sample covariate reference.
+Supplementary_Data_S05_ROI_to_network_mean_FC.csv,HC_raw_mean,Unadjusted mean across HC participants.
+Supplementary_Data_S05_ROI_to_network_mean_FC.csv,HC_raw_sd,Unadjusted sample standard deviation across HC participants.
+Supplementary_Data_S05_ROI_to_network_mean_FC.csv,PD_adjusted_mean,PD fitted mean at the same pooled sample covariate reference.
+Supplementary_Data_S05_ROI_to_network_mean_FC.csv,PD_raw_mean,Unadjusted mean across PD participants.
+Supplementary_Data_S05_ROI_to_network_mean_FC.csv,PD_raw_sd,Unadjusted sample standard deviation across PD participants.
+Supplementary_Data_S05_ROI_to_network_mean_FC.csv,ci95_high,"Upper pointwise 95% t confidence limit of estimate (adjusted PD minus HC), using HC3 covariance and the row-specific residual df; not multiplicity-adjusted."
+Supplementary_Data_S05_ROI_to_network_mean_FC.csv,ci95_low,"Lower pointwise 95% t confidence limit of estimate (adjusted PD minus HC), using HC3 covariance and the row-specific residual df; not multiplicity-adjusted."
+Supplementary_Data_S05_ROI_to_network_mean_FC.csv,covariates,Adjustment variables; each clinical model includes only one imaging predictor.
+Supplementary_Data_S05_ROI_to_network_mean_FC.csv,df,Residual degrees of freedom used for two-sided t inference.
+Supplementary_Data_S05_ROI_to_network_mean_FC.csv,effect_direction,Contrast or coefficient orientation.
+Supplementary_Data_S05_ROI_to_network_mean_FC.csv,estimate,"Unstandardized adjusted PD-minus-HC regression coefficient, in the units of the modeled measure."
+Supplementary_Data_S05_ROI_to_network_mean_FC.csv,family_n,"2,547 tests: 283 seeds by nine target systems, corrected together."
+Supplementary_Data_S05_ROI_to_network_mean_FC.csv,model,Original model or sensitivity-analysis definition.
+Supplementary_Data_S05_ROI_to_network_mean_FC.csv,n,Number of participants included in the model.
+Supplementary_Data_S05_ROI_to_network_mean_FC.csv,n_HC,Number of healthy controls.
+Supplementary_Data_S05_ROI_to_network_mean_FC.csv,n_PD,Number of PD participants.
+Supplementary_Data_S05_ROI_to_network_mean_FC.csv,n_target_regions,"Number of regions in the target system entering the seed-to-system FC mean, after exclusion of a seed-to-itself connection."
+Supplementary_Data_S05_ROI_to_network_mean_FC.csv,p_two_sided,Unadjusted two-sided t-test P value.
+Supplementary_Data_S05_ROI_to_network_mean_FC.csv,q_BH,"BH-adjusted P value across all 2,547 region-by-target-system comparisons."
+Supplementary_Data_S05_ROI_to_network_mean_FC.csv,roi_id,One-based region label in the fixed 283-region atlas; not a participant identifier.
+Supplementary_Data_S05_ROI_to_network_mean_FC.csv,roi_name,Original atlas abbreviation.
+Supplementary_Data_S05_ROI_to_network_mean_FC.csv,se,HC3 robust standard error of the unstandardized adjusted PD-minus-HC coefficient.
+Supplementary_Data_S05_ROI_to_network_mean_FC.csv,seed_network,Fixed network of seed region.
+Supplementary_Data_S05_ROI_to_network_mean_FC.csv,significant_q05,Whether the stated q value is below 0.05; S09/S10 use q_BH8.
+Supplementary_Data_S05_ROI_to_network_mean_FC.csv,standard_errors,Covariance/standard error method used in the original analysis.
+Supplementary_Data_S05_ROI_to_network_mean_FC.csv,standardized_effect,"Adjusted PD-minus-HC coefficient divided by the original pooled within-group SD of the modeled FC measure; a standardized adjusted effect, not an unadjusted Cohen d."
+Supplementary_Data_S05_ROI_to_network_mean_FC.csv,t,Coefficient divided by its standard error.
+Supplementary_Data_S05_ROI_to_network_mean_FC.csv,target_network,Fixed target network/class.
+Supplementary_Data_S05_ROI_to_network_mean_FC.csv,unit,Units of the modeled imaging measure or raw coefficient.
+Supplementary_Data_S06_complete_system_disease_family.csv,ci95_high,"Upper pointwise 95% t confidence limit of estimate (adjusted PD minus HC), using HC3 covariance and the row-specific residual df; not multiplicity-adjusted."
+Supplementary_Data_S06_complete_system_disease_family.csv,ci95_low,"Lower pointwise 95% t confidence limit of estimate (adjusted PD minus HC), using HC3 covariance and the row-specific residual df; not multiplicity-adjusted."
+Supplementary_Data_S06_complete_system_disease_family.csv,covariates,Adjustment variables; each clinical model includes only one imaging predictor.
+Supplementary_Data_S06_complete_system_disease_family.csv,df,Residual degrees of freedom used for two-sided t inference.
+Supplementary_Data_S06_complete_system_disease_family.csv,effect_direction,Contrast or coefficient orientation.
+Supplementary_Data_S06_complete_system_disease_family.csv,estimate,"Unstandardized adjusted PD-minus-HC regression coefficient, in the units of the modeled measure."
+Supplementary_Data_S06_complete_system_disease_family.csv,family_id,Name of correction family or gradient.
+Supplementary_Data_S06_complete_system_disease_family.csv,family_n,"Six complete-system disease tests, including the four FC measures, signed G3 mean difference and within-versus-between FC contrast."
+Supplementary_Data_S06_complete_system_disease_family.csv,metric,"Identifier of one of six complete-system disease measures. compression is the signed mean G3 of all 30 SMN regions minus all 31 cerebellar regions, not an absolute distance or the fixed 19-region score."
+Supplementary_Data_S06_complete_system_disease_family.csv,metric_label,English display name of the measure.
+Supplementary_Data_S06_complete_system_disease_family.csv,n,Number of participants included in the model.
+Supplementary_Data_S06_complete_system_disease_family.csv,n_HC,Number of healthy controls.
+Supplementary_Data_S06_complete_system_disease_family.csv,n_PD,Number of PD participants.
+Supplementary_Data_S06_complete_system_disease_family.csv,p_two_sided,Unadjusted two-sided t-test P value.
+Supplementary_Data_S06_complete_system_disease_family.csv,q_BH,BH-adjusted P value within the six-test complete-system disease family.
+Supplementary_Data_S06_complete_system_disease_family.csv,se,HC3 robust standard error of the unstandardized adjusted PD-minus-HC coefficient.
+Supplementary_Data_S06_complete_system_disease_family.csv,significant_q05,Whether the stated q value is below 0.05; S09/S10 use q_BH8.
+Supplementary_Data_S06_complete_system_disease_family.csv,standard_errors,Covariance/standard error method used in the original analysis.
+Supplementary_Data_S06_complete_system_disease_family.csv,standardization,Exact standardized-effect definition from the original output.
+Supplementary_Data_S06_complete_system_disease_family.csv,standardized_ci_high,Upper pointwise 95% confidence limit of standardized_effect: the upper HC3 t-based raw-coefficient limit divided by the same pooled SD.
+Supplementary_Data_S06_complete_system_disease_family.csv,standardized_ci_low,Lower pointwise 95% confidence limit of standardized_effect: the lower HC3 t-based raw-coefficient limit divided by the same pooled SD.
+Supplementary_Data_S06_complete_system_disease_family.csv,standardized_effect,"Adjusted PD-minus-HC coefficient divided by the pooled within-group sample SD of the measure; this is a standardized adjusted effect, not an unadjusted Cohen d."
+Supplementary_Data_S06_complete_system_disease_family.csv,t,Coefficient divided by its standard error.
+Supplementary_Data_S06_complete_system_disease_family.csv,unit,Units of the modeled imaging measure or raw coefficient.
+Supplementary_Data_S07_paired_regional_gradients.csv,OFF_raw_mean,Unadjusted OFF mean across paired participants.
+Supplementary_Data_S07_paired_regional_gradients.csv,OFF_raw_sd,Unadjusted OFF sample standard deviation.
+Supplementary_Data_S07_paired_regional_gradients.csv,ON_raw_mean,Unadjusted ON mean across paired participants.
+Supplementary_Data_S07_paired_regional_gradients.csv,ON_raw_sd,Unadjusted ON sample standard deviation.
+Supplementary_Data_S07_paired_regional_gradients.csv,anatomical_description,Original atlas anatomical description.
+Supplementary_Data_S07_paired_regional_gradients.csv,ci95_high,Upper pointwise 95% HC3 t confidence limit of the adjusted ON-minus-OFF intercept (df=233); not multiplicity-adjusted.
+Supplementary_Data_S07_paired_regional_gradients.csv,ci95_low,Lower pointwise 95% HC3 t confidence limit of the adjusted ON-minus-OFF intercept (df=233); not multiplicity-adjusted.
+Supplementary_Data_S07_paired_regional_gradients.csv,covariates,Uncentered ON-minus-OFF meanFD; the intercept therefore estimates state change at zero head-motion change.
+Supplementary_Data_S07_paired_regional_gradients.csv,df,233 residual degrees of freedom for the paired intercept-plus-meanFD-change model.
+Supplementary_Data_S07_paired_regional_gradients.csv,disease_effect,Original adjusted PD-HC gradient coefficient.
+Supplementary_Data_S07_paired_regional_gradients.csv,disease_q_BH,Original regional disease-gradient q within 283 tests.
+Supplementary_Data_S07_paired_regional_gradients.csv,effect_direction,Contrast or coefficient orientation.
+Supplementary_Data_S07_paired_regional_gradients.csv,estimate,"Adjusted ON-minus-OFF gradient change: intercept of individual gradient change regressed on uncentered ON-minus-OFF meanFD, evaluated at zero meanFD change."
+Supplementary_Data_S07_paired_regional_gradients.csv,family_id,Paired-gradient correction family identifier; separate from disease-comparison families.
+Supplementary_Data_S07_paired_regional_gradients.csv,family_n,"283 regions per gradient; G1, G2 and G3 are separate paired-comparison BH families."
+Supplementary_Data_S07_paired_regional_gradients.csv,gradient,"Aligned connectivity gradient G1, G2 or G3."
+Supplementary_Data_S07_paired_regional_gradients.csv,n,235 paired participants with complete meanFD change.
+Supplementary_Data_S07_paired_regional_gradients.csv,network,Fixed functional network or anatomical target class.
+Supplementary_Data_S07_paired_regional_gradients.csv,opposite_to_disease_direction,Paired and disease coefficients have opposite signs; a descriptive direction flag only.
+Supplementary_Data_S07_paired_regional_gradients.csv,original_disease_difference_region,Region significant in the original within-gradient disease analysis.
+Supplementary_Data_S07_paired_regional_gradients.csv,p_two_sided,Unadjusted two-sided t-test P value.
+Supplementary_Data_S07_paired_regional_gradients.csv,q_BH,BH-adjusted P value across 283 regions within the stated paired gradient.
+Supplementary_Data_S07_paired_regional_gradients.csv,q_BH_849_sensitivity,Sensitivity BH-adjusted P value across all 849 paired regional tests (283 regions by three gradients); distinct from the primary per-gradient q_BH.
+Supplementary_Data_S07_paired_regional_gradients.csv,raw_change_mean,Unadjusted mean of individual ON-OFF changes.
+Supplementary_Data_S07_paired_regional_gradients.csv,raw_change_sd,Sample standard deviation of individual ON-OFF changes.
+Supplementary_Data_S07_paired_regional_gradients.csv,roi_id,One-based region label in the fixed 283-region atlas; not a participant identifier.
+Supplementary_Data_S07_paired_regional_gradients.csv,roi_name,Original atlas abbreviation.
+Supplementary_Data_S07_paired_regional_gradients.csv,se,HC3 robust standard error of the adjusted ON-minus-OFF intercept.
+Supplementary_Data_S07_paired_regional_gradients.csv,significant_BH849,Whether q across 849 regional paired tests is below 0.05.
+Supplementary_Data_S07_paired_regional_gradients.csv,significant_q05,Whether the stated q value is below 0.05; S09/S10 use q_BH8.
+Supplementary_Data_S07_paired_regional_gradients.csv,standard_errors,Covariance/standard error method used in the original analysis.
+Supplementary_Data_S07_paired_regional_gradients.csv,t,Coefficient divided by its standard error.
+Supplementary_Data_S07_paired_regional_gradients.csv,unit,Units of the modeled imaging measure or raw coefficient.
+Supplementary_Data_S08_complete_system_paired_family.csv,ci95_high,Upper pointwise 95% HC3 t confidence limit of the paired-change intercept; df=233 for motion_adjusted_235 and df=234 for same_235_raw.
+Supplementary_Data_S08_complete_system_paired_family.csv,ci95_low,Lower pointwise 95% HC3 t confidence limit of the paired-change intercept; df=233 for motion_adjusted_235 and df=234 for same_235_raw.
+Supplementary_Data_S08_complete_system_paired_family.csv,covariates,dfd is uncentered ON-minus-OFF meanFD; a blank entry indicates an intercept-only unadjusted paired model.
+Supplementary_Data_S08_complete_system_paired_family.csv,df,Residual t-inference df: 233 for motion_adjusted_235 and 234 for same_235_raw.
+Supplementary_Data_S08_complete_system_paired_family.csv,effect_direction,Contrast or coefficient orientation.
+Supplementary_Data_S08_complete_system_paired_family.csv,estimate,ON-minus-OFF intercept. For motion_adjusted_235 this is the adjusted change at zero meanFD change; for same_235_raw it is the unadjusted mean paired change.
+Supplementary_Data_S08_complete_system_paired_family.csv,family_id,"The 12-test DMN/SMN/cerebellum family, applied separately to each of the two paired models."
+Supplementary_Data_S08_complete_system_paired_family.csv,family_n,12 tests within each model separately; the 24 rows do not form a single 24-test family.
+Supplementary_Data_S08_complete_system_paired_family.csv,metric,"Identifier of a complete-system paired measure. SM means the 30-region SMN; CB the 31-region cerebellum; DMN the default-mode network. For A_B_g2_gap, the individual signed gap is mean G2 of B minus A, followed by ON minus OFF."
+Supplementary_Data_S08_complete_system_paired_family.csv,metric_label,English display name of the measure.
+Supplementary_Data_S08_complete_system_paired_family.csv,model,motion_adjusted_235: intercept-plus-uncentered-meanFD-change model in 235 participants; same_235_raw: intercept-only model in the same 235 participants.
+Supplementary_Data_S08_complete_system_paired_family.csv,n,Number of participants included in the model.
+Supplementary_Data_S08_complete_system_paired_family.csv,p_two_sided,Unadjusted two-sided t-test P value.
+Supplementary_Data_S08_complete_system_paired_family.csv,q_BH,BH-adjusted P value across the 12 measures within the same paired model.
+Supplementary_Data_S08_complete_system_paired_family.csv,raw_change_mean,Unadjusted mean of individual ON-OFF changes.
+Supplementary_Data_S08_complete_system_paired_family.csv,raw_change_sd,Sample standard deviation of individual ON-OFF changes.
+Supplementary_Data_S08_complete_system_paired_family.csv,se,HC3 standard error of the paired-change intercept for the model named in model.
+Supplementary_Data_S08_complete_system_paired_family.csv,significant_q05,Whether the stated q value is below 0.05; S09/S10 use q_BH8.
+Supplementary_Data_S08_complete_system_paired_family.csv,standard_errors,Covariance/standard error method used in the original analysis.
+Supplementary_Data_S08_complete_system_paired_family.csv,standardization,Recorded scaling convention: intercept divided by sample SD of paired change; raw-model intercepts equal unadjusted means.
+Supplementary_Data_S08_complete_system_paired_family.csv,standardized_ci_high,"Upper pointwise 95% confidence limit of standardized_effect, obtained by dividing ci95_high by the same sample SD of paired change."
+Supplementary_Data_S08_complete_system_paired_family.csv,standardized_ci_low,"Lower pointwise 95% confidence limit of standardized_effect, obtained by dividing ci95_low by the same sample SD of paired change."
+Supplementary_Data_S08_complete_system_paired_family.csv,standardized_effect,The model-specific paired-change intercept divided by the sample SD of individual ON-minus-OFF changes in that model sample.
+Supplementary_Data_S08_complete_system_paired_family.csv,t,Coefficient divided by its standard error.
+Supplementary_Data_S08_complete_system_paired_family.csv,unit,Units of the modeled imaging measure or raw coefficient.
+Supplementary_Data_S09_motor_severity.csv,ci95_high,Upper pointwise 95% HC3 t confidence limit of the unstandardized imaging coefficient (df=329); MDS-UPDRS-III points per raw imaging unit.
+Supplementary_Data_S09_motor_severity.csv,ci95_low,Lower pointwise 95% HC3 t confidence limit of the unstandardized imaging coefficient (df=329); MDS-UPDRS-III points per raw imaging unit.
+Supplementary_Data_S09_motor_severity.csv,covariates,"Age, sex and OFF-state meanFD; each model includes one OFF-state imaging predictor."
+Supplementary_Data_S09_motor_severity.csv,df,329 residual degrees of freedom for each severity model.
+Supplementary_Data_S09_motor_severity.csv,estimate,"Unstandardized association of one OFF-state imaging measure with OFF-state MDS-UPDRS-III severity, adjusting for age, sex and meanFD."
+Supplementary_Data_S09_motor_severity.csv,family_n,"Eight imaging predictors, each fitted in a separate model; the severity and improvement outcomes have separate BH families."
+Supplementary_Data_S09_motor_severity.csv,metric,"One of four gradient summaries and four system FC measures. compression means signed SMN-minus-cerebellar mean G3, not absolute distance or the fixed 19-region score."
+Supplementary_Data_S09_motor_severity.csv,metric_label,English display name of the measure.
+Supplementary_Data_S09_motor_severity.csv,n,334 PD participants with complete variables for each OFF-state severity model.
+Supplementary_Data_S09_motor_severity.csv,outcome,Clinical dependent variable.
+Supplementary_Data_S09_motor_severity.csv,p_two_sided,Unadjusted two-sided t-test P value.
+Supplementary_Data_S09_motor_severity.csv,predictor,Imaging predictor and state-change direction.
+Supplementary_Data_S09_motor_severity.csv,q_BH8,"BH-adjusted P value across eight imaging predictors within this clinical outcome, separate from the other clinical outcome."
+Supplementary_Data_S09_motor_severity.csv,se,HC3 robust standard error of the unstandardized imaging-predictor coefficient.
+Supplementary_Data_S09_motor_severity.csv,significant_q05,Whether the stated q value is below 0.05; S09/S10 use q_BH8.
+Supplementary_Data_S09_motor_severity.csv,standard_errors,Covariance/standard error method used in the original analysis.
+Supplementary_Data_S09_motor_severity.csv,standardized_beta,"Unstandardized imaging coefficient multiplied by the sample SD of its imaging predictor and divided by the sample SD of the clinical outcome, using the model sample."
+Supplementary_Data_S09_motor_severity.csv,standardized_ci95_high,"Upper pointwise 95% confidence limit of standardized_beta: ci95_high scaled by SD(predictor)/SD(outcome); HC3 t inference, df=329."
+Supplementary_Data_S09_motor_severity.csv,standardized_ci95_low,"Lower pointwise 95% confidence limit of standardized_beta: ci95_low scaled by SD(predictor)/SD(outcome); HC3 t inference, df=329."
+Supplementary_Data_S09_motor_severity.csv,unit,Units of the modeled imaging measure or raw coefficient.
+Supplementary_Data_S10_motor_improvement.csv,ci95_high,Upper pointwise 95% HC3 t confidence limit of the unstandardized imaging coefficient (df=228); MDS-UPDRS-III points per raw imaging unit.
+Supplementary_Data_S10_motor_improvement.csv,ci95_low,Lower pointwise 95% HC3 t confidence limit of the unstandardized imaging coefficient (df=228); MDS-UPDRS-III points per raw imaging unit.
+Supplementary_Data_S10_motor_improvement.csv,covariates,"Age, sex, uncentered meanFD change (dfd=ON minus OFF), OFF-state MDS-UPDRS-III, and the corresponding OFF-state imaging measure; each model includes one imaging-change predictor."
+Supplementary_Data_S10_motor_improvement.csv,df,228 residual degrees of freedom for each improvement model.
+Supplementary_Data_S10_motor_improvement.csv,estimate,"Unstandardized association of one ON-minus-OFF imaging change with motor improvement (MDS-UPDRS-III OFF minus ON), conditional on the stated covariates."
+Supplementary_Data_S10_motor_improvement.csv,family_n,"Eight imaging predictors, each fitted in a separate model; the severity and improvement outcomes have separate BH families."
+Supplementary_Data_S10_motor_improvement.csv,metric,"One of four gradient summaries and four system FC measures. compression means signed SMN-minus-cerebellar mean G3, not absolute distance or the fixed 19-region score."
+Supplementary_Data_S10_motor_improvement.csv,metric_label,English display name of the measure.
+Supplementary_Data_S10_motor_improvement.csv,n,235 paired PD participants with complete model variables.
+Supplementary_Data_S10_motor_improvement.csv,outcome,Clinical dependent variable.
+Supplementary_Data_S10_motor_improvement.csv,p_two_sided,Unadjusted two-sided t-test P value.
+Supplementary_Data_S10_motor_improvement.csv,predictor,Imaging predictor and state-change direction.
+Supplementary_Data_S10_motor_improvement.csv,q_BH8,"BH-adjusted P value across eight imaging predictors within this clinical outcome, separate from the other clinical outcome."
+Supplementary_Data_S10_motor_improvement.csv,se,HC3 robust standard error of the unstandardized imaging-predictor coefficient.
+Supplementary_Data_S10_motor_improvement.csv,significant_q05,Whether the stated q value is below 0.05; S09/S10 use q_BH8.
+Supplementary_Data_S10_motor_improvement.csv,standard_errors,Covariance/standard error method used in the original analysis.
+Supplementary_Data_S10_motor_improvement.csv,standardized_beta,"Unstandardized imaging coefficient multiplied by the sample SD of its imaging predictor and divided by the sample SD of the clinical outcome, using the model sample."
+Supplementary_Data_S10_motor_improvement.csv,standardized_ci95_high,"Upper pointwise 95% confidence limit of standardized_beta: ci95_high scaled by SD(predictor)/SD(outcome); HC3 t inference, df=228."
+Supplementary_Data_S10_motor_improvement.csv,standardized_ci95_low,"Lower pointwise 95% confidence limit of standardized_beta: ci95_low scaled by SD(predictor)/SD(outcome); HC3 t inference, df=228."
+Supplementary_Data_S10_motor_improvement.csv,unit,Units of the modeled imaging measure or raw coefficient.
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,G3_selected19,Seed belongs to the original 19 G3 disease-difference regions.
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,HC_adjusted_mean,HC fitted mean at the pooled sample covariate reference.
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,PD_adjusted_mean,PD fitted mean at the same pooled sample covariate reference.
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,analysis_level,edge or ROI-to-network; only fields applicable to that analysis level are populated.
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,ci95_high,"Upper pointwise 95% t confidence limit of estimate (adjusted PD minus HC), using HC3 covariance and the row-specific residual df; not multiplicity-adjusted."
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,ci95_low,"Lower pointwise 95% t confidence limit of estimate (adjusted PD minus HC), using HC3 covariance and the row-specific residual df; not multiplicity-adjusted."
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,covariates,Adjustment variables; each clinical model includes only one imaging predictor.
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,df,Residual degrees of freedom used for two-sided t inference.
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,effect_direction,Contrast or coefficient orientation.
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,estimate,"Unstandardized adjusted PD-minus-HC regression coefficient, in the units of the modeled measure."
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,family_n,"39,903 whole-brain edges or 2,547 region-by-target-system tests, separately for each sensitivity model. Displayed selected-region rows retain these full-family q values."
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,model,"global_FC_adjustment adds whole-brain mean FC to age, sex and meanFD; exclude_one_record_linkage_flagged_control omits one control flagged by a prior audit of conflicting duplicate clinical records, with consistent imaging/covariate/motion records retained in the primary analysis. This is not an influence-statistic-based exclusion. Statistical values are unchanged."
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,n,Number of participants included in the model.
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,n_HC,Number of healthy controls.
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,n_PD,Number of PD participants.
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,n_target_regions,"Number of target regions entering the individual mean, excluding self-connections."
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,name_i,Original atlas name of first edge endpoint.
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,name_j,Original atlas name of second edge endpoint.
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,network_i,Fixed network/class of first edge endpoint.
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,network_j,Fixed network/class of second edge endpoint.
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,p_two_sided,Unadjusted two-sided t-test P value.
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,q_BH,BH-adjusted P value from the full family specified by analysis_level and model; not recalculated only among the displayed selected-region rows.
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,roi_i,First endpoint atlas label.
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,roi_id,One-based region label in the fixed 283-region atlas; not a participant identifier.
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,roi_j,Second endpoint atlas label.
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,roi_name,Original atlas abbreviation.
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,se,HC3 robust standard error of the unstandardized adjusted PD-minus-HC coefficient.
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,seed_network,Fixed network of seed region.
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,significant_q05,Whether the stated q value is below 0.05; S09/S10 use q_BH8.
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,standard_errors,Covariance/standard error method used in the original analysis.
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,standardized_effect,"Adjusted PD-minus-HC coefficient divided by the original pooled within-group SD of the modeled FC measure; a standardized adjusted effect, not an unadjusted Cohen d."
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,t,Coefficient divided by its standard error.
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,target_network,Fixed target network/class.
+Supplementary_Data_S11_edge_and_ROI_mean_sensitivity.csv,unit,Units of the modeled imaging measure or raw coefficient.
+Supplementary_Data_S12_complete_system_auxiliary_family.csv,ci95_high,"Upper pointwise 95% t confidence limit of estimate (adjusted PD minus HC), using HC3 covariance and the row-specific residual df; not multiplicity-adjusted."
+Supplementary_Data_S12_complete_system_auxiliary_family.csv,ci95_low,"Lower pointwise 95% t confidence limit of estimate (adjusted PD minus HC), using HC3 covariance and the row-specific residual df; not multiplicity-adjusted."
+Supplementary_Data_S12_complete_system_auxiliary_family.csv,covariates,Adjustment variables; each clinical model includes only one imaging predictor.
+Supplementary_Data_S12_complete_system_auxiliary_family.csv,df,Residual degrees of freedom used for two-sided t inference.
+Supplementary_Data_S12_complete_system_auxiliary_family.csv,effect_direction,Contrast or coefficient orientation.
+Supplementary_Data_S12_complete_system_auxiliary_family.csv,estimate,"Unstandardized adjusted PD-minus-HC regression coefficient, in the units of the modeled measure."
+Supplementary_Data_S12_complete_system_auxiliary_family.csv,family_id,Name of correction family or gradient.
+Supplementary_Data_S12_complete_system_auxiliary_family.csv,family_n,"Seven complete-system auxiliary disease tests, separate from the six primary system tests."
+Supplementary_Data_S12_complete_system_auxiliary_family.csv,metric,Machine-readable original metric name.
+Supplementary_Data_S12_complete_system_auxiliary_family.csv,metric_label,English display name of the measure.
+Supplementary_Data_S12_complete_system_auxiliary_family.csv,n,Number of participants included in the model.
+Supplementary_Data_S12_complete_system_auxiliary_family.csv,n_HC,Number of healthy controls.
+Supplementary_Data_S12_complete_system_auxiliary_family.csv,n_PD,Number of PD participants.
+Supplementary_Data_S12_complete_system_auxiliary_family.csv,p_two_sided,Unadjusted two-sided t-test P value.
+Supplementary_Data_S12_complete_system_auxiliary_family.csv,q_BH,BH-adjusted P value within the seven-test complete-system auxiliary family.
+Supplementary_Data_S12_complete_system_auxiliary_family.csv,se,HC3 robust standard error of the unstandardized adjusted PD-minus-HC coefficient.
+Supplementary_Data_S12_complete_system_auxiliary_family.csv,significant_q05,Whether the stated q value is below 0.05; S09/S10 use q_BH8.
+Supplementary_Data_S12_complete_system_auxiliary_family.csv,standard_errors,Covariance/standard error method used in the original analysis.
+Supplementary_Data_S12_complete_system_auxiliary_family.csv,standardization,Exact standardized-effect definition from the original output.
+Supplementary_Data_S12_complete_system_auxiliary_family.csv,standardized_ci_high,Upper pointwise 95% confidence limit of standardized_effect: the upper HC3 t-based raw-coefficient limit divided by the same pooled SD.
+Supplementary_Data_S12_complete_system_auxiliary_family.csv,standardized_ci_low,Lower pointwise 95% confidence limit of standardized_effect: the lower HC3 t-based raw-coefficient limit divided by the same pooled SD.
+Supplementary_Data_S12_complete_system_auxiliary_family.csv,standardized_effect,"Adjusted PD-minus-HC coefficient divided by the pooled within-group sample SD of the measure; this is a standardized adjusted effect, not an unadjusted Cohen d."
+Supplementary_Data_S12_complete_system_auxiliary_family.csv,t,Coefficient divided by its standard error.
+Supplementary_Data_S12_complete_system_auxiliary_family.csv,unit,Units of the modeled imaging measure or raw coefficient.
+Supplementary_Data_S13_G3_motion_sensitivity.csv,anatomical_description,Original atlas anatomical description.
+Supplementary_Data_S13_G3_motion_sensitivity.csv,covariates,Adjustment variables; each clinical model includes only one imaging predictor.
+Supplementary_Data_S13_G3_motion_sensitivity.csv,df,"Residual degrees of freedom for the stated model: 470 for linear or HC3-robust full-sample models, 469 for quadratic meanFD, and 300 for the restricted sample."
+Supplementary_Data_S13_G3_motion_sensitivity.csv,effect_direction,Contrast or coefficient orientation.
+Supplementary_Data_S13_G3_motion_sensitivity.csv,estimate,"Unstandardized adjusted PD-minus-HC regression coefficient, in the units of the modeled measure."
+Supplementary_Data_S13_G3_motion_sensitivity.csv,family_n,283 G3 regional tests within each sensitivity model separately.
+Supplementary_Data_S13_G3_motion_sensitivity.csv,gradient,"Aligned connectivity gradient G1, G2 or G3."
+Supplementary_Data_S13_G3_motion_sensitivity.csv,model,"linear_meanFD: age, sex and linear meanFD; nonlinear_meanFD adds meanFD squared; strict_meanFD_lt_0.2 restricts both groups to meanFD <0.2 mm; HC3_robust_meanFD uses HC3 covariance with linear adjustment."
+Supplementary_Data_S13_G3_motion_sensitivity.csv,n,Number of participants included in the model.
+Supplementary_Data_S13_G3_motion_sensitivity.csv,n_HC,Number of healthy controls.
+Supplementary_Data_S13_G3_motion_sensitivity.csv,n_PD,Number of PD participants.
+Supplementary_Data_S13_G3_motion_sensitivity.csv,network,Fixed functional network or anatomical target class.
+Supplementary_Data_S13_G3_motion_sensitivity.csv,p_two_sided,Unadjusted two-sided t-test P value.
+Supplementary_Data_S13_G3_motion_sensitivity.csv,q_BH,BH-adjusted P value across all 283 G3 regions within the same sensitivity model.
+Supplementary_Data_S13_G3_motion_sensitivity.csv,roi_id,One-based region label in the fixed 283-region atlas; not a participant identifier.
+Supplementary_Data_S13_G3_motion_sensitivity.csv,roi_name,Original atlas abbreviation.
+Supplementary_Data_S13_G3_motion_sensitivity.csv,significant_q05,Whether the stated q value is below 0.05; S09/S10 use q_BH8.
+Supplementary_Data_S13_G3_motion_sensitivity.csv,standard_errors,Covariance/standard error method used in the original analysis.
+Supplementary_Data_S13_G3_motion_sensitivity.csv,t,Coefficient divided by its standard error.
+Supplementary_Data_S13_G3_motion_sensitivity.csv,unit,Units of the modeled imaging measure or raw coefficient.
+Supplementary_Data_S14_PPMI_complete_system_external.csv,ci95_high,Upper endpoint of pointwise 95% t confidence interval for adjusted group coefficient.
+Supplementary_Data_S14_PPMI_complete_system_external.csv,ci95_low,Lower endpoint of pointwise 95% t confidence interval for adjusted group coefficient.
+Supplementary_Data_S14_PPMI_complete_system_external.csv,covariates,"Covariates in this model; age and meanFD may be standardized for numerical conditioning, without changing the group coefficient."
+Supplementary_Data_S14_PPMI_complete_system_external.csv,df_residual,"Residual degrees of freedom of this model, used for t inference."
+Supplementary_Data_S14_PPMI_complete_system_external.csv,effect_direction,All external group effects are PD minus HC.
+Supplementary_Data_S14_PPMI_complete_system_external.csv,estimate,Adjusted PD minus HC coefficient in the stated unit.
+Supplementary_Data_S14_PPMI_complete_system_external.csv,family,"Preserved multiplicity family: fixed19 (one uncorrected composite), geometry3 (BH3), FC4 (BH4)."
+Supplementary_Data_S14_PPMI_complete_system_external.csv,metric,Fixed outcome name; unchanged definition across cohorts and models.
+Supplementary_Data_S14_PPMI_complete_system_external.csv,metric_label,Human-readable outcome name.
+Supplementary_Data_S14_PPMI_complete_system_external.csv,model,"Frozen model name; primary scanner_adjusted_motion adjusts for age, sex, meanFD and categorical scanner model; age_sex_motion is the base-model sensitivity; site_shared_motion is the shared clinical SITE sensitivity. Scalar base-model sensitivities exclude_ambiguous_age, exclude_screen_flag and original_age_motion do not include scanner covariates and do not assess robustness of the scanner-adjusted primary model. Full sample and covariate rules are in README."
+Supplementary_Data_S14_PPMI_complete_system_external.csv,multiplicity,Correction family preserved separately for each model.
+Supplementary_Data_S14_PPMI_complete_system_external.csv,n,Number of participants in the specific model.
+Supplementary_Data_S14_PPMI_complete_system_external.csv,n_HC,Number of healthy controls in the specific model.
+Supplementary_Data_S14_PPMI_complete_system_external.csv,n_PD,Number of PD participants in the specific model.
+Supplementary_Data_S14_PPMI_complete_system_external.csv,p_two_sided,Two-sided residual-df t-test P value for the group coefficient.
+Supplementary_Data_S14_PPMI_complete_system_external.csv,q_BH,BH-adjusted P value within the stated family and model; missing for the single fixed score.
+Supplementary_Data_S14_PPMI_complete_system_external.csv,report_role,"Primary is scanner_adjusted_motion; age_sex_motion, site_shared_motion and the three scalar base-model checks are sensitivity analyses. Legacy models are retained only in internal reproducibility checks."
+Supplementary_Data_S14_PPMI_complete_system_external.csv,se_HC3,HC3 heteroscedasticity-robust standard error of the group coefficient.
+Supplementary_Data_S14_PPMI_complete_system_external.csv,t,Group coefficient divided by its HC3 standard error.
+Supplementary_Data_S14_PPMI_complete_system_external.csv,unit,"Outcome scale, with no between-metric rescaling."
+Supplementary_Data_S15_model_diagnostics.csv,analysis,Diagnostic analysis class: regional paired gradients or the original four-system-FC severity/improvement models. The expanded eight-imaging-metric clinical models are not all covered.
+Supplementary_Data_S15_model_diagnostics.csv,breusch_pagan_p,Descriptive Breusch-Pagan heteroskedasticity P value.
+Supplementary_Data_S15_model_diagnostics.csv,design_rank,"Design-matrix rank where exported; blank entries indicate unavailable exported metadata, not a zero rank."
+Supplementary_Data_S15_model_diagnostics.csv,gradient,"Aligned gradient G1, G2 or G3 for regional diagnostics; blank for clinical models."
+Supplementary_Data_S15_model_diagnostics.csv,maximum_absolute_standardized_residual,Maximum absolute standardized residual.
+Supplementary_Data_S15_model_diagnostics.csv,maximum_cooks_distance,"Maximum Cook distance across model observations, with no identifier exported."
+Supplementary_Data_S15_model_diagnostics.csv,maximum_leverage,"Maximum model leverage, with no identifier exported."
+Supplementary_Data_S15_model_diagnostics.csv,metric,System FC measure identifier for clinical diagnostics; blank for regional diagnostics.
+Supplementary_Data_S15_model_diagnostics.csv,metric_label,Display name of a clinical system FC measure; blank for regional diagnostics.
+Supplementary_Data_S15_model_diagnostics.csv,n,"Model sample size where exported (334 severity or 235 improvement); blank regional rows indicate that this field was not exported, not zero participants."
+Supplementary_Data_S15_model_diagnostics.csv,n_cooks_above_4_over_n,Count of observations with Cook distance > 4/n.
+Supplementary_Data_S15_model_diagnostics.csv,removed_for_influence,Number excluded for influence in the covered clinical models (zero); blank regional entries indicate that this field was not exported.
+Supplementary_Data_S15_model_diagnostics.csv,residual_excess_kurtosis,Residual excess kurtosis.
+Supplementary_Data_S15_model_diagnostics.csv,residual_shapiro_p,Descriptive Shapiro-Wilk residual normality P value.
+Supplementary_Data_S15_model_diagnostics.csv,residual_skew,Residual skewness.
+Supplementary_Data_S15_model_diagnostics.csv,roi_id,One-based atlas label for regional diagnostics; blank for clinical models.
+Supplementary_Data_S16_PPMI_fixed19_score_external.csv,ci95_high,Upper endpoint of pointwise 95% t confidence interval for adjusted group coefficient.
+Supplementary_Data_S16_PPMI_fixed19_score_external.csv,ci95_low,Lower endpoint of pointwise 95% t confidence interval for adjusted group coefficient.
+Supplementary_Data_S16_PPMI_fixed19_score_external.csv,covariates,"Covariates in this model; age and meanFD may be standardized for numerical conditioning, without changing the group coefficient."
+Supplementary_Data_S16_PPMI_fixed19_score_external.csv,df_residual,"Residual degrees of freedom of this model, used for t inference."
+Supplementary_Data_S16_PPMI_fixed19_score_external.csv,effect_direction,All external group effects are PD minus HC.
+Supplementary_Data_S16_PPMI_fixed19_score_external.csv,estimate,Adjusted PD minus HC coefficient in the stated unit.
+Supplementary_Data_S16_PPMI_fixed19_score_external.csv,family,"Preserved multiplicity family: fixed19 (one uncorrected composite), geometry3 (BH3), FC4 (BH4)."
+Supplementary_Data_S16_PPMI_fixed19_score_external.csv,metric,Fixed outcome name; unchanged definition across cohorts and models.
+Supplementary_Data_S16_PPMI_fixed19_score_external.csv,metric_label,Human-readable outcome name.
+Supplementary_Data_S16_PPMI_fixed19_score_external.csv,model,"Frozen model name; primary scanner_adjusted_motion adjusts for age, sex, meanFD and categorical scanner model; age_sex_motion is the base-model sensitivity; site_shared_motion is the shared clinical SITE sensitivity. Scalar base-model sensitivities exclude_ambiguous_age, exclude_screen_flag and original_age_motion do not include scanner covariates and do not assess robustness of the scanner-adjusted primary model. Full sample and covariate rules are in README."
+Supplementary_Data_S16_PPMI_fixed19_score_external.csv,multiplicity,Correction family preserved separately for each model.
+Supplementary_Data_S16_PPMI_fixed19_score_external.csv,n,Number of participants in the specific model.
+Supplementary_Data_S16_PPMI_fixed19_score_external.csv,n_HC,Number of healthy controls in the specific model.
+Supplementary_Data_S16_PPMI_fixed19_score_external.csv,n_PD,Number of PD participants in the specific model.
+Supplementary_Data_S16_PPMI_fixed19_score_external.csv,p_two_sided,Two-sided residual-df t-test P value for the group coefficient.
+Supplementary_Data_S16_PPMI_fixed19_score_external.csv,q_BH,BH-adjusted P value within the stated family and model; missing for the single fixed score.
+Supplementary_Data_S16_PPMI_fixed19_score_external.csv,report_role,"Primary is scanner_adjusted_motion; age_sex_motion, site_shared_motion and the three scalar base-model checks are sensitivity analyses. Legacy models are retained only in internal reproducibility checks."
+Supplementary_Data_S16_PPMI_fixed19_score_external.csv,se_HC3,HC3 heteroscedasticity-robust standard error of the group coefficient.
+Supplementary_Data_S16_PPMI_fixed19_score_external.csv,t,Group coefficient divided by its HC3 standard error.
+Supplementary_Data_S16_PPMI_fixed19_score_external.csv,unit,"Outcome scale, with no between-metric rescaling."
+Supplementary_Data_S17_profile_target_networks.csv,HC_adjusted_ci_high,"Upper pointwise 95% confidence limit for HC_adjusted_mean at the pooled covariate reference; computed from the fitted-mean contrast and HC3 covariance with t df=470. This is a mean-response CI, not an individual prediction interval or a group-difference CI."
+Supplementary_Data_S17_profile_target_networks.csv,HC_adjusted_ci_low,"Lower pointwise 95% confidence limit for HC_adjusted_mean at the pooled covariate reference; computed from the fitted-mean contrast and HC3 covariance with t df=470. This is a mean-response CI, not an individual prediction interval or a group-difference CI."
+Supplementary_Data_S17_profile_target_networks.csv,HC_adjusted_mean,"Fitted HC response at the pooled 475-participant means of age, sex and meanFD."
+Supplementary_Data_S17_profile_target_networks.csv,HC_raw_mean,Unadjusted HC mean of the response identified by metric and analysis_family; distance contribution or Fisher-z FC as applicable.
+Supplementary_Data_S17_profile_target_networks.csv,PD_adjusted_ci_high,"Upper pointwise 95% confidence limit for PD_adjusted_mean at the pooled covariate reference; computed from the fitted-mean contrast and HC3 covariance with t df=470. This is a mean-response CI, not an individual prediction interval or a group-difference CI."
+Supplementary_Data_S17_profile_target_networks.csv,PD_adjusted_ci_low,"Lower pointwise 95% confidence limit for PD_adjusted_mean at the pooled covariate reference; computed from the fitted-mean contrast and HC3 covariance with t df=470. This is a mean-response CI, not an individual prediction interval or a group-difference CI."
+Supplementary_Data_S17_profile_target_networks.csv,PD_adjusted_mean,Fitted PD response at the same pooled covariate reference as HC_adjusted_mean.
+Supplementary_Data_S17_profile_target_networks.csv,PD_raw_mean,Unadjusted PD mean of the response identified by metric and analysis_family; distance contribution or Fisher-z FC as applicable.
+Supplementary_Data_S17_profile_target_networks.csv,analysis_family,cosine_distance_BH7: seven uncentered distance contributions; centered_distance_BH7: seven centered contributions; raw_FC_BH14: two seeds by seven targets; raw_SM_minus_CB_BH7: seven signed seed contrasts. Each is a separate exploratory BH family.
+Supplementary_Data_S17_profile_target_networks.csv,ci_high,"Upper pointwise 95% t confidence limit of estimate, using HC3 covariance and df=470; not multiplicity-adjusted."
+Supplementary_Data_S17_profile_target_networks.csv,ci_low,"Lower pointwise 95% t confidence limit of estimate, using HC3 covariance and df=470; not multiplicity-adjusted."
+Supplementary_Data_S17_profile_target_networks.csv,covariates,"Age, sex and meanFD; the group coefficient is PD minus HC."
+Supplementary_Data_S17_profile_target_networks.csv,df,"470 residual degrees of freedom for the intercept, group, age, sex and meanFD design."
+Supplementary_Data_S17_profile_target_networks.csv,estimate,Adjusted PD-minus-HC response difference. Distance families are unitless cosine-distance contributions; raw_FC and raw_SM_minus_CB families use Fisher-z FC before profile normalization. These are not normalized-angle-similarity coefficients.
+Supplementary_Data_S17_profile_target_networks.csv,exploratory,True identifies an exploratory analysis.
+Supplementary_Data_S17_profile_target_networks.csv,family_n,"Number of tests in analysis_family: 7 for either distance family or signed seed contrasts, and 14 for raw FC. The 35 rows are not one family."
+Supplementary_Data_S17_profile_target_networks.csv,metric,"Network-level response identifier. Distance responses sum 0.5*(u-v)^2 over the named targets, where u and v are unit-length 222-target profiles (demeaned first for centered_distance). rawFC responses are mean Fisher-z FC; raw_SM_minus_CB responses are signed mean SMN-minus-cerebellar Fisher-z FC."
+Supplementary_Data_S17_profile_target_networks.csv,n,475 participants in each adjusted PD-versus-HC model.
+Supplementary_Data_S17_profile_target_networks.csv,n_HC,141 healthy controls.
+Supplementary_Data_S17_profile_target_networks.csv,n_PD,334 OFF-state PD participants.
+Supplementary_Data_S17_profile_target_networks.csv,n_targets,"Number of regions in this external-target category, within the common set of 222 targets."
+Supplementary_Data_S17_profile_target_networks.csv,network,"One of seven common external-target classes: Visual, DorsAttn, VentAttn, Frontoparietal, Default, Limbic or Subcortex (including brainstem). SMN and cerebellar seed regions are excluded."
+Supplementary_Data_S17_profile_target_networks.csv,p,Unadjusted two-sided HC3 t-test P value for estimate (df=470).
+Supplementary_Data_S17_profile_target_networks.csv,per_target_ci_high,"Only for cosine_distance_BH7: ci_high divided by n_targets, preserving the same HC3 pointwise 95% t CI (df=470); blank in other families."
+Supplementary_Data_S17_profile_target_networks.csv,per_target_ci_low,"Only for cosine_distance_BH7: ci_low divided by n_targets, preserving the same HC3 pointwise 95% t CI (df=470); blank in other families."
+Supplementary_Data_S17_profile_target_networks.csv,per_target_estimate,"Only for cosine_distance_BH7: summed network distance coefficient divided by n_targets. A deterministic rescaling, not an independent model; blank in the other families."
+Supplementary_Data_S17_profile_target_networks.csv,q_BH,"BH-adjusted P value within analysis_family, using its own family_n."
+Supplementary_Data_S17_profile_target_networks.csv,se,HC3 robust standard error of estimate (the adjusted PD-minus-HC response difference).
+Supplementary_Data_S17_profile_target_networks.csv,seed,SM is the 30-region SMN; CB is the 31-region cerebellum. Populated only for raw_FC_BH14; blank for distance and signed seed-contrast responses.
+Supplementary_Data_S17_profile_target_networks.csv,standard_errors,Covariance estimator used for the coefficient standard error and confidence interval; HC3 denotes heteroskedasticity-robust inference.
+Supplementary_Data_S17_profile_target_networks.csv,standardized_effect,"Adjusted coefficient divided by pooled within-group sample SD of the modeled response: sqrt(((n_HC-1)*SD_HC^2+(n_PD-1)*SD_PD^2)/(n_HC+n_PD-2)). This is a standardized adjusted effect, not an unadjusted Cohen d."
+Supplementary_Data_S17_profile_target_networks.csv,t,Adjusted PD-minus-HC coefficient divided by its HC3 standard error.
+Supplementary_Data_S18_profile_target_regions.csv,CB_rawFC_HC_adjusted_mean,"Fitted HC mean Fisher-z FC from cerebellum (31 regions) to this target, at pooled age, sex and meanFD means."
+Supplementary_Data_S18_profile_target_regions.csv,CB_rawFC_PD_adjusted_mean,"Fitted PD mean Fisher-z FC from cerebellum (31 regions) to this target, at the same pooled covariate reference as the corresponding HC mean."
+Supplementary_Data_S18_profile_target_regions.csv,CB_rawFC_ci_high,"Upper pointwise 95% HC3 t confidence limit for CB_rawFC_estimate (df=470), in Fisher-z FC units; not multiplicity-adjusted."
+Supplementary_Data_S18_profile_target_regions.csv,CB_rawFC_ci_low,"Lower pointwise 95% HC3 t confidence limit for CB_rawFC_estimate (df=470), in Fisher-z FC units; not multiplicity-adjusted."
+Supplementary_Data_S18_profile_target_regions.csv,CB_rawFC_estimate,"Adjusted PD-minus-HC coefficient for mean Fisher-z FC from cerebellum (31 regions) to this external target, before profile normalization; age/sex/meanFD adjustment."
+Supplementary_Data_S18_profile_target_regions.csv,CB_rawFC_family_n,"444 tests: two seeds by 222 external targets, corrected together."
+Supplementary_Data_S18_profile_target_regions.csv,CB_rawFC_p,Unadjusted two-sided HC3 t-test P value for CB_rawFC_estimate (df=470).
+Supplementary_Data_S18_profile_target_regions.csv,CB_rawFC_q_BH,"BH-adjusted P value across both seeds and all 222 targets (444 tests together), separate from the 222-test distance family."
+Supplementary_Data_S18_profile_target_regions.csv,HC_adjusted_ci_high,"Upper pointwise 95% confidence limit for HC_adjusted_mean at the pooled covariate reference; computed from the fitted-mean contrast and HC3 covariance with t df=470. This is a mean-response CI, not an individual prediction interval or a group-difference CI."
+Supplementary_Data_S18_profile_target_regions.csv,HC_adjusted_ci_low,"Lower pointwise 95% confidence limit for HC_adjusted_mean at the pooled covariate reference; computed from the fitted-mean contrast and HC3 covariance with t df=470. This is a mean-response CI, not an individual prediction interval or a group-difference CI."
+Supplementary_Data_S18_profile_target_regions.csv,HC_adjusted_mean,"Fitted HC response at the pooled 475-participant means of age, sex and meanFD."
+Supplementary_Data_S18_profile_target_regions.csv,HC_gap_variance_component,"One half of the between-participant HC variance of z_j=u_j-v_j, using denominator n=141 (ddof=0). Descriptive and unadjusted; not a partition of the adjusted regression coefficient."
+Supplementary_Data_S18_profile_target_regions.csv,HC_mean_gap_component,"One half of the squared unadjusted HC mean of z_j=u_j-v_j. Together with HC_gap_variance_component, this equals the unadjusted group mean of d_j."
+Supplementary_Data_S18_profile_target_regions.csv,HC_normalized_gap_mean,"Unadjusted HC mean of z_j=u_j-v_j, the signed difference of the two unit-length-normalized profiles at this target."
+Supplementary_Data_S18_profile_target_regions.csv,HC_normalized_gap_variance,"Between-participant HC population-form variance of z_j=u_j-v_j, using denominator n=141 (ddof=0); not within-person variation."
+Supplementary_Data_S18_profile_target_regions.csv,HC_raw_mean,Unadjusted HC mean of the individual target distance contribution d_j; unitless.
+Supplementary_Data_S18_profile_target_regions.csv,HC_u_mean,"Unadjusted HC mean of u_j, the SMN-to-target Fisher-z FC divided by that participant's SMN profile L2 norm across all 222 targets."
+Supplementary_Data_S18_profile_target_regions.csv,HC_v_mean,"Unadjusted HC mean of v_j, the cerebellum-to-target Fisher-z FC divided by that participant's cerebellar profile L2 norm across all 222 targets."
+Supplementary_Data_S18_profile_target_regions.csv,PD_adjusted_ci_high,"Upper pointwise 95% confidence limit for PD_adjusted_mean at the pooled covariate reference; computed from the fitted-mean contrast and HC3 covariance with t df=470. This is a mean-response CI, not an individual prediction interval or a group-difference CI."
+Supplementary_Data_S18_profile_target_regions.csv,PD_adjusted_ci_low,"Lower pointwise 95% confidence limit for PD_adjusted_mean at the pooled covariate reference; computed from the fitted-mean contrast and HC3 covariance with t df=470. This is a mean-response CI, not an individual prediction interval or a group-difference CI."
+Supplementary_Data_S18_profile_target_regions.csv,PD_adjusted_mean,Fitted PD response at the same pooled covariate reference as HC_adjusted_mean.
+Supplementary_Data_S18_profile_target_regions.csv,PD_gap_variance_component,"One half of the between-participant PD variance of z_j=u_j-v_j, using denominator n=334 (ddof=0). Descriptive and unadjusted; not a partition of the adjusted regression coefficient."
+Supplementary_Data_S18_profile_target_regions.csv,PD_mean_gap_component,"One half of the squared unadjusted PD mean of z_j=u_j-v_j. Together with PD_gap_variance_component, this equals the unadjusted group mean of d_j."
+Supplementary_Data_S18_profile_target_regions.csv,PD_normalized_gap_mean,"Unadjusted PD mean of z_j=u_j-v_j, the signed difference of the two unit-length-normalized profiles at this target."
+Supplementary_Data_S18_profile_target_regions.csv,PD_normalized_gap_variance,"Between-participant PD population-form variance of z_j=u_j-v_j, using denominator n=334 (ddof=0); not within-person variation."
+Supplementary_Data_S18_profile_target_regions.csv,PD_raw_mean,Unadjusted PD mean of the individual target distance contribution d_j; unitless.
+Supplementary_Data_S18_profile_target_regions.csv,PD_u_mean,"Unadjusted PD mean of u_j, the SMN-to-target Fisher-z FC divided by that participant's SMN profile L2 norm across all 222 targets."
+Supplementary_Data_S18_profile_target_regions.csv,PD_v_mean,"Unadjusted PD mean of v_j, the cerebellum-to-target Fisher-z FC divided by that participant's cerebellar profile L2 norm across all 222 targets."
+Supplementary_Data_S18_profile_target_regions.csv,SM_rawFC_HC_adjusted_mean,"Fitted HC mean Fisher-z FC from SMN (30 regions) to this target, at pooled age, sex and meanFD means."
+Supplementary_Data_S18_profile_target_regions.csv,SM_rawFC_PD_adjusted_mean,"Fitted PD mean Fisher-z FC from SMN (30 regions) to this target, at the same pooled covariate reference as the corresponding HC mean."
+Supplementary_Data_S18_profile_target_regions.csv,SM_rawFC_ci_high,"Upper pointwise 95% HC3 t confidence limit for SM_rawFC_estimate (df=470), in Fisher-z FC units; not multiplicity-adjusted."
+Supplementary_Data_S18_profile_target_regions.csv,SM_rawFC_ci_low,"Lower pointwise 95% HC3 t confidence limit for SM_rawFC_estimate (df=470), in Fisher-z FC units; not multiplicity-adjusted."
+Supplementary_Data_S18_profile_target_regions.csv,SM_rawFC_estimate,"Adjusted PD-minus-HC coefficient for mean Fisher-z FC from SMN (30 regions) to this external target, before profile normalization; age/sex/meanFD adjustment."
+Supplementary_Data_S18_profile_target_regions.csv,SM_rawFC_family_n,"444 tests: two seeds by 222 external targets, corrected together."
+Supplementary_Data_S18_profile_target_regions.csv,SM_rawFC_p,Unadjusted two-sided HC3 t-test P value for SM_rawFC_estimate (df=470).
+Supplementary_Data_S18_profile_target_regions.csv,SM_rawFC_q_BH,"BH-adjusted P value across both seeds and all 222 targets (444 tests together), separate from the 222-test distance family."
+Supplementary_Data_S18_profile_target_regions.csv,anatomical_description,Original atlas anatomical description.
+Supplementary_Data_S18_profile_target_regions.csv,ci_high,"Upper pointwise 95% t confidence limit of estimate, using HC3 covariance and df=470; not multiplicity-adjusted."
+Supplementary_Data_S18_profile_target_regions.csv,ci_low,"Lower pointwise 95% t confidence limit of estimate, using HC3 covariance and df=470; not multiplicity-adjusted."
+Supplementary_Data_S18_profile_target_regions.csv,covariates,"Age, sex and meanFD; the group coefficient is PD minus HC."
+Supplementary_Data_S18_profile_target_regions.csv,df,"470 residual degrees of freedom for the intercept, group, age, sex and meanFD design."
+Supplementary_Data_S18_profile_target_regions.csv,estimate,Adjusted PD-minus-HC difference in the individual target cosine-distance contribution d_j=0.5*(u_j-v_j)^2; unitless. This field does not describe raw FC.
+Supplementary_Data_S18_profile_target_regions.csv,exploratory,True identifies an exploratory analysis.
+Supplementary_Data_S18_profile_target_regions.csv,family_n,222 regional cosine-distance tests; separate from the 444 seed-specific raw-FC tests in prefixed columns.
+Supplementary_Data_S18_profile_target_regions.csv,metric,"External-target distance response: ROI_distance_<roi_id> is d_j=0.5*(u_j-v_j)^2, with u and v the individually unit-length-normalized, uncentered 222-target SMN and cerebellar profiles."
+Supplementary_Data_S18_profile_target_regions.csv,n,475 participants in each adjusted PD-versus-HC model.
+Supplementary_Data_S18_profile_target_regions.csv,n_HC,141 healthy controls.
+Supplementary_Data_S18_profile_target_regions.csv,n_PD,334 OFF-state PD participants.
+Supplementary_Data_S18_profile_target_regions.csv,network,Fixed network or anatomical class of the external target; Subcortex includes brainstem.
+Supplementary_Data_S18_profile_target_regions.csv,p,Unadjusted two-sided HC3 t-test P value for estimate (df=470).
+Supplementary_Data_S18_profile_target_regions.csv,q_BH,BH-adjusted P value across all 222 external-target distance contributions.
+Supplementary_Data_S18_profile_target_regions.csv,roi_id,One-based target-region label from the 283-region atlas; these rows cover only the 222 targets outside SMN and cerebellum.
+Supplementary_Data_S18_profile_target_regions.csv,roi_name,Original atlas abbreviation.
+Supplementary_Data_S18_profile_target_regions.csv,se,HC3 robust standard error of estimate (the adjusted PD-minus-HC response difference).
+Supplementary_Data_S18_profile_target_regions.csv,standard_errors,Covariance estimator used for the coefficient standard error and confidence interval; HC3 denotes heteroskedasticity-robust inference.
+Supplementary_Data_S18_profile_target_regions.csv,standardized_effect,"Adjusted coefficient divided by pooled within-group sample SD of the modeled response: sqrt(((n_HC-1)*SD_HC^2+(n_PD-1)*SD_PD^2)/(n_HC+n_PD-2)). This is a standardized adjusted effect, not an unadjusted Cohen d."
+Supplementary_Data_S18_profile_target_regions.csv,structure,Broad anatomical class of the external target: Cortex or Subcortex and brainstem.
+Supplementary_Data_S18_profile_target_regions.csv,t,Adjusted PD-minus-HC coefficient divided by its HC3 standard error.
+Supplementary_Data_S19_profile_geometry_correspondence.csv,ci_high,Upper pointwise 95% HC3 t confidence limit of standardized_beta; residual df=n-5 (136 for HC; 329 for PD). Not a CI for an unstandardized coefficient.
+Supplementary_Data_S19_profile_geometry_correspondence.csv,ci_low,Lower pointwise 95% HC3 t confidence limit of standardized_beta; residual df=n-5 (136 for HC; 329 for PD). Not a CI for an unstandardized coefficient.
+Supplementary_Data_S19_profile_geometry_correspondence.csv,covariates,"Age, sex and meanFD in a separate model within HC or PD."
+Supplementary_Data_S19_profile_geometry_correspondence.csv,family_n,"Six models: three gradient outcomes by two groups, corrected together."
+Supplementary_Data_S19_profile_geometry_correspondence.csv,interpretation,Descriptive correspondence of measures derived from the same FC input; not independent validation or causal mediation.
+Supplementary_Data_S19_profile_geometry_correspondence.csv,n,Participants in the separate within-group correspondence model: 141 HC or 334 PD.
+Supplementary_Data_S19_profile_geometry_correspondence.csv,outcome,Gradient outcome standardized within group: signed_SM_minus_CB_G3_difference is mean G3 of all 30 SMN regions minus all 31 cerebellar regions; gradient_distance_3d and gradient_distance_10d are system-centroid Euclidean distances in the corresponding aligned gradient space.
+Supplementary_Data_S19_profile_geometry_correspondence.csv,p,Unadjusted two-sided HC3 t-test P value for standardized_beta; residual df=n-5 (136 HC; 329 PD).
+Supplementary_Data_S19_profile_geometry_correspondence.csv,predictor,"Total uncentered cosine distance across the 222 common targets, sum_j 0.5*(u_j-v_j)^2=1-cosine(u,v); standardized within group before regression. This is not normalized-angle similarity."
+Supplementary_Data_S19_profile_geometry_correspondence.csv,q_BH,BH-adjusted P value across the six within-group correspondence models.
+Supplementary_Data_S19_profile_geometry_correspondence.csv,role,Group in which the correspondence model is fitted separately: HC (n=141) or PD (n=334).
+Supplementary_Data_S19_profile_geometry_correspondence.csv,standard_errors,Covariance estimator used for the coefficient standard error and confidence interval; HC3 denotes heteroskedasticity-robust inference.
+Supplementary_Data_S19_profile_geometry_correspondence.csv,standardized_beta,"Within-group OLS coefficient after centering and sample-SD standardization of both cosine-distance predictor and gradient outcome; adjusted for age, sex and meanFD with HC3 covariance."
+Supplementary_Data_S20_profile_distance_mean_dispersion.csv,HC_gap_variance_component,"Sum across category targets of 0.5*Var_HC(u_j-v_j), the between-participant variance with denominator 141 (ddof=0); descriptive and unadjusted."
+Supplementary_Data_S20_profile_distance_mean_dispersion.csv,HC_mean_gap_component,"Sum across category targets of 0.5*[mean_HC(u_j-v_j)]^2, using uncentered unit-length profiles and 141 HC; descriptive and unadjusted."
+Supplementary_Data_S20_profile_distance_mean_dispersion.csv,PD_gap_variance_component,"Sum across category targets of 0.5*Var_PD(u_j-v_j), the between-participant variance with denominator 334 (ddof=0); descriptive and unadjusted."
+Supplementary_Data_S20_profile_distance_mean_dispersion.csv,PD_mean_gap_component,"Sum across category targets of 0.5*[mean_PD(u_j-v_j)]^2, using uncentered unit-length profiles and 334 PD; descriptive and unadjusted."
+Supplementary_Data_S20_profile_distance_mean_dispersion.csv,dispersion_change,PD_gap_variance_component minus HC_gap_variance_component; unadjusted descriptive difference.
+Supplementary_Data_S20_profile_distance_mean_dispersion.csv,interpretation,"Unadjusted identity: mean individual distance equals the sum of mean-gap and between-participant variance components. This does not partition an adjusted group coefficient, assess one system's FC variance, or support causal attribution."
+Supplementary_Data_S20_profile_distance_mean_dispersion.csv,mean_gap_change,PD_mean_gap_component minus HC_mean_gap_component; unadjusted descriptive difference.
+Supplementary_Data_S20_profile_distance_mean_dispersion.csv,network,One of seven common external-target categories; Subcortex includes brainstem. Components sum over targets in this category.
+Supplementary_Data_S21_complete_system_geometry_paired.csv,adjusted_change,"Paired geometry-change intercept at zero meanFD change; ON minus OFF, in the original aligned gradient-coordinate scale."
+Supplementary_Data_S21_complete_system_geometry_paired.csv,change_direction,ON minus OFF for each imaging geometry measure.
+Supplementary_Data_S21_complete_system_geometry_paired.csv,ci_high,"Upper pointwise 95% HC3 t confidence limit of adjusted_change, with residual df=233; not multiplicity-adjusted."
+Supplementary_Data_S21_complete_system_geometry_paired.csv,ci_low,"Lower pointwise 95% HC3 t confidence limit of adjusted_change, with residual df=233; not multiplicity-adjusted."
+Supplementary_Data_S21_complete_system_geometry_paired.csv,df,233 residual degrees of freedom for inference on the adjusted intercept; distinct from raw_descriptive_ci_df=234.
+Supplementary_Data_S21_complete_system_geometry_paired.csv,estimate_type,OLS intercept of individual ON-minus-OFF geometry change regressed on uncentered ON-minus-OFF meanFD; evaluated at zero meanFD change.
+Supplementary_Data_S21_complete_system_geometry_paired.csv,exploratory,True: exploratory complete-system geometry state analysis.
+Supplementary_Data_S21_complete_system_geometry_paired.csv,family_n,"Three geometry state tests, corrected together and separately from the 12-test system-state family in S08."
+Supplementary_Data_S21_complete_system_geometry_paired.csv,label,English display name of the geometry measure.
+Supplementary_Data_S21_complete_system_geometry_paired.csv,metric,Complete-system geometry identifier. compression is the legacy name for signed mean G3 of all 30 SMN regions minus all 31 cerebellar regions; not absolute compression or the fixed 19-region score. The other two metrics are system-centroid distances in 3D and 10D.
+Supplementary_Data_S21_complete_system_geometry_paired.csv,n,"235 paired participants with complete meanFD change, used for both adjusted and raw descriptive summaries in this file."
+Supplementary_Data_S21_complete_system_geometry_paired.csv,p,Unadjusted two-sided HC3 t-test P value for adjusted_change (df=233).
+Supplementary_Data_S21_complete_system_geometry_paired.csv,q_BH3,BH-adjusted P value across exactly the three complete-system geometry state effects in this file.
+Supplementary_Data_S21_complete_system_geometry_paired.csv,raw_descriptive_ci_df,234 degrees of freedom for the descriptive raw-mean CI (n-1); distinct from adjusted model df=233.
+Supplementary_Data_S21_complete_system_geometry_paired.csv,raw_mean_change,Unadjusted mean individual ON-minus-OFF change among the same 235 participants.
+Supplementary_Data_S21_complete_system_geometry_paired.csv,raw_mean_ci_high,"Upper descriptive 95% t confidence limit for raw_mean_change, calculated using raw_sd_change/sqrt(235) and df=234; no separate hypothesis test is asserted."
+Supplementary_Data_S21_complete_system_geometry_paired.csv,raw_mean_ci_low,"Lower descriptive 95% t confidence limit for raw_mean_change, calculated using raw_sd_change/sqrt(235) and df=234; no separate hypothesis test is asserted."
+Supplementary_Data_S21_complete_system_geometry_paired.csv,raw_sd_change,"Unadjusted sample SD of individual ON-minus-OFF changes in the same 235 participants, with denominator n-1 (ddof=1)."
+Supplementary_Data_S21_complete_system_geometry_paired.csv,scale,Original aligned gradient coordinates; the same discovery HC reference is used for OFF and ON. No subject-level scale standardization is applied.
+Supplementary_Data_S21_complete_system_geometry_paired.csv,se_HC3,HC3 robust standard error of adjusted_change.
+Supplementary_Data_S21_complete_system_geometry_paired.csv,standard_errors,HC3 covariance for adjusted_change inference; raw descriptive mean CIs instead use sample SD divided by sqrt(n).
+Supplementary_Data_S21_complete_system_geometry_paired.csv,system_definition,Fixed complete systems: SMN with 30 regions and cerebellum with 31 regions.
+Supplementary_Data_S21_complete_system_geometry_paired.csv,t,adjusted_change divided by se_HC3.
+Supplementary_Data_S21_complete_system_geometry_paired.csv,two_sided,True: the adjusted-intercept test and confidence interval use two-sided inference.
+Supplementary_Data_S21_complete_system_geometry_paired.csv,use_t,"True: adjusted-intercept inference uses a t distribution with residual df=233, rather than a normal approximation."
+Supplementary_Data_S22_PPMI_characteristics.csv,available_n,"Number with an available value under the row-specific linkage/eligibility rule. For scan_visit_anchoring, unresolved is an explicit status category: available_n counts participants whose linkage status is classified, not successfully matched visits."
+Supplementary_Data_S22_PPMI_characteristics.csv,cohort_n,Full group size in the frozen external roster.
+Supplementary_Data_S22_PPMI_characteristics.csv,count,Count at the stated category level; blank for continuous variables.
+Supplementary_Data_S22_PPMI_characteristics.csv,group,"PD or HC in the fixed external analysis roster (359 PD, 79 HC)."
+Supplementary_Data_S22_PPMI_characteristics.csv,level,Category level for categorical distributions; blank for continuous summaries.
+Supplementary_Data_S22_PPMI_characteristics.csv,max,Maximum available value.
+Supplementary_Data_S22_PPMI_characteristics.csv,mean,Arithmetic mean of available values.
+Supplementary_Data_S22_PPMI_characteristics.csv,median,Median of available values.
+Supplementary_Data_S22_PPMI_characteristics.csv,min,Minimum available value.
+Supplementary_Data_S22_PPMI_characteristics.csv,missing_n,"Cohort size minus available_n; for clinical subsets this includes unavailable or non-qualifying records, not necessarily missing form fields. See note."
+Supplementary_Data_S22_PPMI_characteristics.csv,note,"Variable-specific definition, denominator and provenance caveats. Clinical treatment labels do not establish MRI-day medication state; model age was retained without correction."
+Supplementary_Data_S22_PPMI_characteristics.csv,percent,100 times count divided by cohort_n (359 PD or 79 HC); the denominator is the full fixed group.
+Supplementary_Data_S22_PPMI_characteristics.csv,q1,First quartile of available values.
+Supplementary_Data_S22_PPMI_characteristics.csv,q3,Third quartile of available values.
+Supplementary_Data_S22_PPMI_characteristics.csv,sd,Sample standard deviation (denominator n minus 1).
+Supplementary_Data_S22_PPMI_characteristics.csv,status,Evidence status of the descriptive item; pending/provenance-limited items are not confirmed clinical facts.
+Supplementary_Data_S22_PPMI_characteristics.csv,unit,"Outcome scale, with no between-metric rescaling."
+Supplementary_Data_S22_PPMI_characteristics.csv,variable,Descriptive variable or acquisition/provenance item; no hypothesis tests are included.
+Supplementary_Data_S23_PPMI_system_geometry.csv,ci95_high,Upper endpoint of pointwise 95% t confidence interval for adjusted group coefficient.
+Supplementary_Data_S23_PPMI_system_geometry.csv,ci95_low,Lower endpoint of pointwise 95% t confidence interval for adjusted group coefficient.
+Supplementary_Data_S23_PPMI_system_geometry.csv,covariates,"Covariates in this model; age and meanFD may be standardized for numerical conditioning, without changing the group coefficient."
+Supplementary_Data_S23_PPMI_system_geometry.csv,df_residual,"Residual degrees of freedom of this model, used for t inference."
+Supplementary_Data_S23_PPMI_system_geometry.csv,effect_direction,All external group effects are PD minus HC.
+Supplementary_Data_S23_PPMI_system_geometry.csv,estimate,Adjusted PD minus HC coefficient in the stated unit.
+Supplementary_Data_S23_PPMI_system_geometry.csv,family,"Preserved multiplicity family: fixed19 (one uncorrected composite), geometry3 (BH3), FC4 (BH4)."
+Supplementary_Data_S23_PPMI_system_geometry.csv,metric,Fixed outcome name; unchanged definition across cohorts and models.
+Supplementary_Data_S23_PPMI_system_geometry.csv,metric_label,Human-readable outcome name.
+Supplementary_Data_S23_PPMI_system_geometry.csv,model,"Frozen model name; primary scanner_adjusted_motion adjusts for age, sex, meanFD and categorical scanner model; age_sex_motion is the base-model sensitivity; site_shared_motion is the shared clinical SITE sensitivity. Scalar base-model sensitivities exclude_ambiguous_age, exclude_screen_flag and original_age_motion do not include scanner covariates and do not assess robustness of the scanner-adjusted primary model. Full sample and covariate rules are in README."
+Supplementary_Data_S23_PPMI_system_geometry.csv,multiplicity,Correction family preserved separately for each model.
+Supplementary_Data_S23_PPMI_system_geometry.csv,n,Number of participants in the specific model.
+Supplementary_Data_S23_PPMI_system_geometry.csv,n_HC,Number of healthy controls in the specific model.
+Supplementary_Data_S23_PPMI_system_geometry.csv,n_PD,Number of PD participants in the specific model.
+Supplementary_Data_S23_PPMI_system_geometry.csv,p_two_sided,Two-sided residual-df t-test P value for the group coefficient.
+Supplementary_Data_S23_PPMI_system_geometry.csv,q_BH,BH-adjusted P value within the stated family and model; missing for the single fixed score.
+Supplementary_Data_S23_PPMI_system_geometry.csv,report_role,"Primary is scanner_adjusted_motion; age_sex_motion, site_shared_motion and the three scalar base-model checks are sensitivity analyses. Legacy models are retained only in internal reproducibility checks."
+Supplementary_Data_S23_PPMI_system_geometry.csv,se_HC3,HC3 heteroscedasticity-robust standard error of the group coefficient.
+Supplementary_Data_S23_PPMI_system_geometry.csv,t,Group coefficient divided by its HC3 standard error.
+Supplementary_Data_S23_PPMI_system_geometry.csv,unit,"Outcome scale, with no between-metric rescaling."
+Supplementary_Data_S24_PPMI_effect_map_agreement.csv,covariates,"Covariates in this model; age and meanFD may be standardized for numerical conditioning, without changing the group coefficient."
+Supplementary_Data_S24_PPMI_effect_map_agreement.csv,gradient,"Aligned gradient component G1, G2 or G3."
+Supplementary_Data_S24_PPMI_effect_map_agreement.csv,model,"Frozen model name; primary scanner_adjusted_motion adjusts for age, sex, meanFD and categorical scanner model; age_sex_motion is the base-model sensitivity; site_shared_motion is the shared clinical SITE sensitivity. Full sample and covariate rules are in README."
+Supplementary_Data_S24_PPMI_effect_map_agreement.csv,n,Number of participants in the specific model.
+Supplementary_Data_S24_PPMI_effect_map_agreement.csv,n_HC,Number of healthy controls in the specific model.
+Supplementary_Data_S24_PPMI_effect_map_agreement.csv,n_PD,Number of PD participants in the specific model.
+Supplementary_Data_S24_PPMI_effect_map_agreement.csv,n_null,Number of restricted null bootstrap resamples.
+Supplementary_Data_S24_PPMI_effect_map_agreement.csv,n_regions,Number of regions included in map comparison; all 283.
+Supplementary_Data_S24_PPMI_effect_map_agreement.csv,null_hypothesis,Null tested by the restricted participant-level wild bootstrap.
+Supplementary_Data_S24_PPMI_effect_map_agreement.csv,null_seed,Seed for restricted null bootstrap.
+Supplementary_Data_S24_PPMI_effect_map_agreement.csv,p_wild_two_sided,Conditional restricted HC2 wild-bootstrap P; not a spatial-rotation specificity test.
+Supplementary_Data_S24_PPMI_effect_map_agreement.csv,q_BH_3,BH correction across three gradients within the model.
+Supplementary_Data_S24_PPMI_effect_map_agreement.csv,spearman_rho,Spearman correlation of complete external and fixed discovery group-effect maps.
+Supplementary_Data_S25_PPMI_regional_gradients.csv,anatomical_description,Atlas anatomical description.
+Supplementary_Data_S25_PPMI_regional_gradients.csv,ci95_high,Upper endpoint of pointwise 95% t confidence interval for adjusted group coefficient.
+Supplementary_Data_S25_PPMI_regional_gradients.csv,ci95_low,Lower endpoint of pointwise 95% t confidence interval for adjusted group coefficient.
+Supplementary_Data_S25_PPMI_regional_gradients.csv,covariates,"Covariates in this model; age and meanFD may be standardized for numerical conditioning, without changing the group coefficient."
+Supplementary_Data_S25_PPMI_regional_gradients.csv,df,Residual degrees of freedom used in t inference.
+Supplementary_Data_S25_PPMI_regional_gradients.csv,discovery_estimate,"Corresponding fixed discovery-cohort regional PD minus HC coefficient adjusted for age, sex and meanFD."
+Supplementary_Data_S25_PPMI_regional_gradients.csv,discovery_q_BH,Discovery regional q in the original within-gradient BH283 family.
+Supplementary_Data_S25_PPMI_regional_gradients.csv,effect_direction,All external group effects are PD minus HC.
+Supplementary_Data_S25_PPMI_regional_gradients.csv,estimate,Adjusted PD minus HC coefficient in the stated unit.
+Supplementary_Data_S25_PPMI_regional_gradients.csv,gradient,"Aligned gradient component G1, G2 or G3."
+Supplementary_Data_S25_PPMI_regional_gradients.csv,model,"Frozen model name; primary scanner_adjusted_motion adjusts for age, sex, meanFD and categorical scanner model; age_sex_motion is the base-model sensitivity; site_shared_motion is the shared clinical SITE sensitivity. Full sample and covariate rules are in README."
+Supplementary_Data_S25_PPMI_regional_gradients.csv,n,Number of participants in the specific model.
+Supplementary_Data_S25_PPMI_regional_gradients.csv,n_HC,Number of healthy controls in the specific model.
+Supplementary_Data_S25_PPMI_regional_gradients.csv,n_PD,Number of PD participants in the specific model.
+Supplementary_Data_S25_PPMI_regional_gradients.csv,network,Fixed network or anatomical system assignment.
+Supplementary_Data_S25_PPMI_regional_gradients.csv,p_two_sided,Two-sided residual-df t-test P value for the group coefficient.
+Supplementary_Data_S25_PPMI_regional_gradients.csv,q_BH_283,BH q across 283 region tests separately for each model and gradient.
+Supplementary_Data_S25_PPMI_regional_gradients.csv,roi_id,"One-based atlas parcel identifier, not a participant identifier."
+Supplementary_Data_S25_PPMI_regional_gradients.csv,roi_name,Atlas parcel label.
+Supplementary_Data_S25_PPMI_regional_gradients.csv,se,HC3 standard error of regional group coefficient.
+Supplementary_Data_S25_PPMI_regional_gradients.csv,significant_q05,Whether the regional BH283 q is less than 0.05.
+Supplementary_Data_S25_PPMI_regional_gradients.csv,standard_errors,HC3 heteroscedasticity-robust covariance estimate.
+Supplementary_Data_S25_PPMI_regional_gradients.csv,t,Group coefficient divided by its HC3 standard error.
+Supplementary_Data_S25_PPMI_regional_gradients.csv,unit,"Outcome scale, with no between-metric rescaling."
+Supplementary_Data_S26_complete_system_motion_sensitivity.csv,model,"reference_linear_FD: all 475, linear meanFD; low_FD_lt_0.2: 305 with meanFD < 0.2 mm, linear meanFD; quadratic_FD: all 475, linear and uncentred squared meanFD."
+Supplementary_Data_S26_complete_system_motion_sensitivity.csv,metric,"Fixed complete-system measure. compression denotes signed SMN minus cerebellum G3 mean, not an absolute distance."
+Supplementary_Data_S26_complete_system_motion_sensitivity.csv,metric_label,Descriptive label for the complete-system outcome.
+Supplementary_Data_S26_complete_system_motion_sensitivity.csv,family_id,"primary_6 or auxiliary_7; the same six/seven outcomes as S06/S12, corrected separately within each model."
+Supplementary_Data_S26_complete_system_motion_sensitivity.csv,family_n,"Number of outcomes in the BH family, including outcomes not shown in Table S15."
+Supplementary_Data_S26_complete_system_motion_sensitivity.csv,n,Number of participants in this model.
+Supplementary_Data_S26_complete_system_motion_sensitivity.csv,n_PD,Number of PD OFF participants.
+Supplementary_Data_S26_complete_system_motion_sensitivity.csv,n_HC,Number of healthy controls.
+Supplementary_Data_S26_complete_system_motion_sensitivity.csv,estimate,"Adjusted PD OFF minus HC coefficient, in original outcome units."
+Supplementary_Data_S26_complete_system_motion_sensitivity.csv,ci95_low,Lower two-sided 95% confidence limit from HC3 SE and residual-df t distribution.
+Supplementary_Data_S26_complete_system_motion_sensitivity.csv,ci95_high,Upper two-sided 95% confidence limit from HC3 SE and residual-df t distribution.
+Supplementary_Data_S26_complete_system_motion_sensitivity.csv,se,HC3 heteroscedasticity-robust standard error for the group coefficient.
+Supplementary_Data_S26_complete_system_motion_sensitivity.csv,t,Adjusted group coefficient divided by its HC3 SE.
+Supplementary_Data_S26_complete_system_motion_sensitivity.csv,df,Residual degrees of freedom: n minus model rank.
+Supplementary_Data_S26_complete_system_motion_sensitivity.csv,p_two_sided,Two-sided t-test P value before BH correction.
+Supplementary_Data_S26_complete_system_motion_sensitivity.csv,q_BH,BH-adjusted P value within the stated family and model.
+Supplementary_Data_S26_complete_system_motion_sensitivity.csv,significant_q05,True if family-specific q_BH < 0.05.
+Supplementary_Data_S26_complete_system_motion_sensitivity.csv,standard_errors,HC3 heteroscedasticity-robust covariance estimator.
+Supplementary_Data_S26_complete_system_motion_sensitivity.csv,covariates,Nuisance terms in addition to intercept and group; meanFD_squared is uncentred meanFD squared.
+Supplementary_Data_S26_complete_system_motion_sensitivity.csv,unit,"Original aligned gradient-coordinate, Fisher-z FC, or dimensionless similarity units, as applicable."
+Supplementary_Data_S26_complete_system_motion_sensitivity.csv,effect_direction,PD OFF minus HC.
+Supplementary_Data_S26_complete_system_motion_sensitivity.csv,standardized_effect,Adjusted group coefficient divided by the within-model pooled within-group SD; not labelled Cohen d.
+Supplementary_Data_S26_complete_system_motion_sensitivity.csv,standardized_ci_low,Lower confidence limit divided by the same pooled SD.
+Supplementary_Data_S26_complete_system_motion_sensitivity.csv,standardized_ci_high,Upper confidence limit divided by the same pooled SD.
+Supplementary_Data_S26_complete_system_motion_sensitivity.csv,standardization,"Pooled SD is sqrt(((n_PD-1)*var_PD + (n_HC-1)*var_HC)/(n_PD+n_HC-2)), recalculated within each model sample."

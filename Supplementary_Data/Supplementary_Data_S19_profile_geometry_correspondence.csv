@@ -1,0 +1,7 @@
+﻿role,outcome,predictor,n,standardized_beta,ci_low,ci_high,p,covariates,standard_errors,interpretation,q_BH,family_n
+HC,signed_SM_minus_CB_G3_difference,cosine_distance,141,-0.47825614286542,-0.61787568177742,-0.33863660395341,3.457037815434e-10,age + sex + meanFD,HC3,"descriptive correspondence from the same FC input, not causal mediation",3.457037815434e-10,6
+HC,gradient_distance_3d,cosine_distance,141,0.55436520868421,0.4161600849517,0.69257033241672,7.0461355224089e-13,age + sex + meanFD,HC3,"descriptive correspondence from the same FC input, not causal mediation",8.4553626268907e-13,6
+HC,gradient_distance_10d,cosine_distance,141,0.53485906352306,0.40411077918905,0.66560734785706,2.9541233826611e-13,age + sex + meanFD,HC3,"descriptive correspondence from the same FC input, not causal mediation",4.4311850739916e-13,6
+PD,signed_SM_minus_CB_G3_difference,cosine_distance,334,-0.53889846524781,-0.63186717376217,-0.44592975673345,1.3176484246901e-25,age + sex + meanFD,HC3,"descriptive correspondence from the same FC input, not causal mediation",2.6352968493803e-25,6
+PD,gradient_distance_3d,cosine_distance,334,0.58247426630484,0.48913949932836,0.67580903328131,8.8754846875177e-29,age + sex + meanFD,HC3,"descriptive correspondence from the same FC input, not causal mediation",5.3252908125106e-28,6
+PD,gradient_distance_10d,cosine_distance,334,0.5694568708539,0.47374982909767,0.66516391261013,1.0826090240385e-26,age + sex + meanFD,HC3,"descriptive correspondence from the same FC input, not causal mediation",3.2478270721155e-26,6

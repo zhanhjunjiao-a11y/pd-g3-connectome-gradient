@@ -1,0 +1,284 @@
+﻿roi_id,roi_name,anatomical_description,network,structure,lobe,gyrus,atlas_source,somatomotor_system,cerebellar_system,external_target,voxel_count_2mm
+1,A8m_l,medial area 8,Frontoparietal,Cortex,Frontal lobe,Superior frontal gyrus,Brainnetome,False,False,True,791
+2,A8m_r,medial area 8,VentAttn,Cortex,Frontal lobe,Superior frontal gyrus,Brainnetome,False,False,True,883
+3,A8dl_l,dorsolateral area 8,Default,Cortex,Frontal lobe,Superior frontal gyrus,Brainnetome,False,False,True,907
+4,A8dl_r,dorsolateral area 8,Default,Cortex,Frontal lobe,Superior frontal gyrus,Brainnetome,False,False,True,741
+5,A9l_l,lateral area 9,Default,Cortex,Frontal lobe,Superior frontal gyrus,Brainnetome,False,False,True,776
+6,A9l_r,lateral area 9,Default,Cortex,Frontal lobe,Superior frontal gyrus,Brainnetome,False,False,True,914
+7,A6dl_l,dorsolateral area 6,DorsAttn,Cortex,Frontal lobe,Superior frontal gyrus,Brainnetome,False,False,True,644
+8,A6dl_r,dorsolateral area 6,VentAttn,Cortex,Frontal lobe,Superior frontal gyrus,Brainnetome,False,False,True,664
+9,A6m_l,medial area 6,Somatomotor,Cortex,Frontal lobe,Superior frontal gyrus,Brainnetome,True,False,False,758
+10,A6m_r,medial area 6,Somatomotor,Cortex,Frontal lobe,Superior frontal gyrus,Brainnetome,True,False,False,744
+11,A9m_l,medial area 9,Default,Cortex,Frontal lobe,Superior frontal gyrus,Brainnetome,False,False,True,689
+12,A9m_r,medial area 9,Frontoparietal,Cortex,Frontal lobe,Superior frontal gyrus,Brainnetome,False,False,True,892
+13,A10m_l,medial area 10,Default,Cortex,Frontal lobe,Superior frontal gyrus,Brainnetome,False,False,True,1075
+14,A10m_r,medial area 10,Default,Cortex,Frontal lobe,Superior frontal gyrus,Brainnetome,False,False,True,924
+15,A9/46d_l,dorsal area 9/46,VentAttn,Cortex,Frontal lobe,Middle frontal gyrus,Brainnetome,False,False,True,1089
+16,A9/46d_r,dorsal area 9/46,Frontoparietal,Cortex,Frontal lobe,Middle frontal gyrus,Brainnetome,False,False,True,1021
+17,IFJ_l,inferior frontal junction,Frontoparietal,Cortex,Frontal lobe,Middle frontal gyrus,Brainnetome,False,False,True,815
+18,IFJ_r,inferior frontal junction,Frontoparietal,Cortex,Frontal lobe,Middle frontal gyrus,Brainnetome,False,False,True,618
+19,A46_l,area 46,Frontoparietal,Cortex,Frontal lobe,Middle frontal gyrus,Brainnetome,False,False,True,805
+20,A46_r,area 46,Frontoparietal,Cortex,Frontal lobe,Middle frontal gyrus,Brainnetome,False,False,True,1019
+21,A9/46v_l,ventral area 9/46,Frontoparietal,Cortex,Frontal lobe,Middle frontal gyrus,Brainnetome,False,False,True,1007
+22,A9/46v_r,ventral area 9/46,Frontoparietal,Cortex,Frontal lobe,Middle frontal gyrus,Brainnetome,False,False,True,946
+23,A8vl_l,ventrolateral area 8,Default,Cortex,Frontal lobe,Middle frontal gyrus,Brainnetome,False,False,True,991
+24,A8vl_r,ventrolateral area 8,Frontoparietal,Cortex,Frontal lobe,Middle frontal gyrus,Brainnetome,False,False,True,810
+25,A6vl_l,ventrolateral area 6,DorsAttn,Cortex,Frontal lobe,Middle frontal gyrus,Brainnetome,False,False,True,636
+26,A6vl_r,ventrolateral area 6,Frontoparietal,Cortex,Frontal lobe,Middle frontal gyrus,Brainnetome,False,False,True,592
+27,A10l_l,lateral area 10,Default,Cortex,Frontal lobe,Middle frontal gyrus,Brainnetome,False,False,True,794
+28,A10l_r,lateral area 10,Frontoparietal,Cortex,Frontal lobe,Middle frontal gyrus,Brainnetome,False,False,True,1031
+29,A44d_l,dorsal area 44,Frontoparietal,Cortex,Frontal lobe,Inferior frontal gyrus,Brainnetome,False,False,True,327
+30,A44d_r,dorsal area 44,Frontoparietal,Cortex,Frontal lobe,Inferior frontal gyrus,Brainnetome,False,False,True,349
+31,IFS_l,inferior frontal sulcus,Frontoparietal,Cortex,Frontal lobe,Inferior frontal gyrus,Brainnetome,False,False,True,384
+32,IFS_r,inferior frontal sulcus,Frontoparietal,Cortex,Frontal lobe,Inferior frontal gyrus,Brainnetome,False,False,True,320
+33,A45c_l,caudal area 45,Default,Cortex,Frontal lobe,Inferior frontal gyrus,Brainnetome,False,False,True,318
+34,A45c_r,caudal area 45,Default,Cortex,Frontal lobe,Inferior frontal gyrus,Brainnetome,False,False,True,374
+35,A45r_l,rostral area 45,Default,Cortex,Frontal lobe,Inferior frontal gyrus,Brainnetome,False,False,True,381
+36,A45r_r,rostral area 45,Default,Cortex,Frontal lobe,Inferior frontal gyrus,Brainnetome,False,False,True,412
+37,A44op_l,opercular area 44,VentAttn,Cortex,Frontal lobe,Inferior frontal gyrus,Brainnetome,False,False,True,471
+38,A44op_r,opercular area 44,VentAttn,Cortex,Frontal lobe,Inferior frontal gyrus,Brainnetome,False,False,True,557
+39,A44v_l,ventral area 44,VentAttn,Cortex,Frontal lobe,Inferior frontal gyrus,Brainnetome,False,False,True,280
+40,A44v_r,ventral area 44,VentAttn,Cortex,Frontal lobe,Inferior frontal gyrus,Brainnetome,False,False,True,273
+41,A14m_l,medial area 14,Default,Cortex,Frontal lobe,Orbital gyrus,Brainnetome,False,False,True,518
+42,A14m_r,medial area 14,Default,Cortex,Frontal lobe,Orbital gyrus,Brainnetome,False,False,True,630
+43,A12//47o_l,orbital area 12/47,Default,Cortex,Frontal lobe,Orbital gyrus,Brainnetome,False,False,True,536
+44,A12\/47o_r,orbital area 12/47,Default,Cortex,Frontal lobe,Orbital gyrus,Brainnetome,False,False,True,491
+45,A11l_l,lateral area 11,Limbic,Cortex,Frontal lobe,Orbital gyrus,Brainnetome,False,False,True,926
+46,A11l_r,lateral area 11,Limbic,Cortex,Frontal lobe,Orbital gyrus,Brainnetome,False,False,True,1210
+47,A11m_l,medial area 11,Limbic,Cortex,Frontal lobe,Orbital gyrus,Brainnetome,False,False,True,637
+48,A11m_r,medial area 11,Limbic,Cortex,Frontal lobe,Orbital gyrus,Brainnetome,False,False,True,732
+49,A13_l,area 13,Limbic,Cortex,Frontal lobe,Orbital gyrus,Brainnetome,False,False,True,919
+50,A13_r,area 13,Limbic,Cortex,Frontal lobe,Orbital gyrus,Brainnetome,False,False,True,800
+51,A12/47l_l,lateral area 12/47,Default,Cortex,Frontal lobe,Orbital gyrus,Brainnetome,False,False,True,568
+52,A12/47l_r,lateral area 12/47,Default,Cortex,Frontal lobe,Orbital gyrus,Brainnetome,False,False,True,494
+53,A4hf_l,area 4(head and face region),Somatomotor,Cortex,Frontal lobe,Precentral gyrus,Brainnetome,True,False,False,897
+54,A4hf_r,area 4(head and face region),Somatomotor,Cortex,Frontal lobe,Precentral gyrus,Brainnetome,True,False,False,522
+55,A6cdl_l,caudal dorsolateral area 6,DorsAttn,Cortex,Frontal lobe,Precentral gyrus,Brainnetome,False,False,True,709
+56,A6cdl_r,caudal dorsolateral area 6,DorsAttn,Cortex,Frontal lobe,Precentral gyrus,Brainnetome,False,False,True,886
+57,A4ul_l,area 4(upper limb region),Somatomotor,Cortex,Frontal lobe,Precentral gyrus,Brainnetome,True,False,False,624
+58,A4ul_r,area 4(upper limb region),Somatomotor,Cortex,Frontal lobe,Precentral gyrus,Brainnetome,True,False,False,626
+59,A4t_l,area 4(trunk region),Somatomotor,Cortex,Frontal lobe,Precentral gyrus,Brainnetome,True,False,False,283
+60,A4t_r,area 4(trunk region),Somatomotor,Cortex,Frontal lobe,Precentral gyrus,Brainnetome,True,False,False,431
+61,A4tl_l,area 4(tongue and larynx region),VentAttn,Cortex,Frontal lobe,Precentral gyrus,Brainnetome,False,False,True,434
+62,A4tl_r,area 4(tongue and larynx region),VentAttn,Cortex,Frontal lobe,Precentral gyrus,Brainnetome,False,False,True,424
+63,A6cvl_l,caudal ventrolateral area 6,DorsAttn,Cortex,Frontal lobe,Precentral gyrus,Brainnetome,False,False,True,745
+64,A6cvl_r,caudal ventrolateral area 6,DorsAttn,Cortex,Frontal lobe,Precentral gyrus,Brainnetome,False,False,True,675
+65,A1/2/3ll_l,area 1/2/3 (lower limb region),Somatomotor,Cortex,Frontal lobe,Paracentral lobule,Brainnetome,True,False,False,344
+66,A1/2/3ll_r,area 1/2/3 (lower limb region),Somatomotor,Cortex,Frontal lobe,Paracentral lobule,Brainnetome,True,False,False,472
+67,A4ll_l," area 4,(lower limb region)",Somatomotor,Cortex,Frontal lobe,Paracentral lobule,Brainnetome,True,False,False,492
+68,A4ll_r," area 4,(lower limb region)",Somatomotor,Cortex,Frontal lobe,Paracentral lobule,Brainnetome,True,False,False,601
+69,A38m_l,medial area 38,Limbic,Cortex,Temporal lobe,Superior temporal gyrus,Brainnetome,False,False,True,727
+70,A38m_r,medial area 38,Limbic,Cortex,Temporal lobe,Superior temporal gyrus,Brainnetome,False,False,True,661
+71,A41/42_l,area 41/42,Somatomotor,Cortex,Temporal lobe,Superior temporal gyrus,Brainnetome,True,False,False,505
+72,A41/42_r,area 41/42,Somatomotor,Cortex,Temporal lobe,Superior temporal gyrus,Brainnetome,True,False,False,371
+73,TE1.0/TE1.2_l,,Somatomotor,Cortex,Temporal lobe,Superior temporal gyrus,Brainnetome,True,False,False,801
+74,TE1.0/TE1.2_r,,Somatomotor,Cortex,Temporal lobe,Superior temporal gyrus,Brainnetome,True,False,False,729
+75,A22c_l,caudal area 22,Somatomotor,Cortex,Temporal lobe,Superior temporal gyrus,Brainnetome,True,False,False,585
+76,A22c_r,caudal area 22,Somatomotor,Cortex,Temporal lobe,Superior temporal gyrus,Brainnetome,True,False,False,555
+77,A38l_l,lateral area 38,Limbic,Cortex,Temporal lobe,Superior temporal gyrus,Brainnetome,False,False,True,497
+78,A38l_r,lateral area 38,Default,Cortex,Temporal lobe,Superior temporal gyrus,Brainnetome,False,False,True,649
+79,A22r_l,rostral area 22,Default,Cortex,Temporal lobe,Superior temporal gyrus,Brainnetome,False,False,True,644
+80,A22r_r,rostral area 22,Default,Cortex,Temporal lobe,Superior temporal gyrus,Brainnetome,False,False,True,367
+81,A21c_l,caudal area 21,Default,Cortex,Temporal lobe,Middle temporal gyrus,Brainnetome,False,False,True,568
+82,A21c_r,caudal area 21,Frontoparietal,Cortex,Temporal lobe,Middle temporal gyrus,Brainnetome,False,False,True,707
+83,A21r_l,rostral area 21,Default,Cortex,Temporal lobe,Middle temporal gyrus,Brainnetome,False,False,True,784
+84,A21r_r,rostral area 21,Default,Cortex,Temporal lobe,Middle temporal gyrus,Brainnetome,False,False,True,954
+85,A37dl_l,dorsolateral area 37,DorsAttn,Cortex,Temporal lobe,Middle temporal gyrus,Brainnetome,False,False,True,619
+86,A37dl_r,dorsolateral area 37,DorsAttn,Cortex,Temporal lobe,Middle temporal gyrus,Brainnetome,False,False,True,726
+87,aSTS_l,anterior superior temporal sulcus,Default,Cortex,Temporal lobe,Middle temporal gyrus,Brainnetome,False,False,True,830
+88,aSTS_r,anterior superior temporal sulcus,Default,Cortex,Temporal lobe,Middle temporal gyrus,Brainnetome,False,False,True,1179
+89,A20iv_l,intermediate ventral area 20,Limbic,Cortex,Temporal lobe,Middle temporal gyrus,Brainnetome,False,False,True,317
+90,A20iv_r,intermediate ventral area 20,Limbic,Cortex,Temporal lobe,Middle temporal gyrus,Brainnetome,False,False,True,184
+91,A37elv_l,extreme lateroventral area 37,DorsAttn,Cortex,Temporal lobe,Middle temporal gyrus,Brainnetome,False,False,True,336
+92,A37elv_r,extreme lateroventral area 37,DorsAttn,Cortex,Temporal lobe,Middle temporal gyrus,Brainnetome,False,False,True,223
+93,A20r_l,rostral area 20,Limbic,Cortex,Temporal lobe,Middle temporal gyrus,Brainnetome,False,False,True,484
+94,A20r_r,rostral area 20,Limbic,Cortex,Temporal lobe,Middle temporal gyrus,Brainnetome,False,False,True,445
+95,A20il_l,intermediate lateral area 20,Default,Cortex,Temporal lobe,Middle temporal gyrus,Brainnetome,False,False,True,464
+96,A20il_r,intermediate lateral area 20,Limbic,Cortex,Temporal lobe,Middle temporal gyrus,Brainnetome,False,False,True,454
+97,A37vl_l,ventrolateral area 37,DorsAttn,Cortex,Temporal lobe,Middle temporal gyrus,Brainnetome,False,False,True,407
+98,A37vl_r,ventrolateral area 37,DorsAttn,Cortex,Temporal lobe,Middle temporal gyrus,Brainnetome,False,False,True,348
+99,A20cl_l,caudolateral of area 20,Frontoparietal,Cortex,Temporal lobe,Middle temporal gyrus,Brainnetome,False,False,True,499
+100,A20cl_r,caudolateral of area 20,Frontoparietal,Cortex,Temporal lobe,Middle temporal gyrus,Brainnetome,False,False,True,396
+101,A20cv_l,caudoventral of area 20,Limbic,Cortex,Temporal lobe,Middle temporal gyrus,Brainnetome,False,False,True,563
+102,A20cv_r,caudoventral of area 20,Limbic,Cortex,Temporal lobe,Middle temporal gyrus,Brainnetome,False,False,True,575
+103,A20rv_l,rostroventral area 20,Limbic,Cortex,Temporal lobe,Fusiform gyrus,Brainnetome,False,False,True,1017
+104,A20rv_r,rostroventral area 20,Limbic,Cortex,Temporal lobe,Fusiform gyrus,Brainnetome,False,False,True,1111
+105,A37mv_l,medioventral area 37,Visual,Cortex,Temporal lobe,Fusiform gyrus,Brainnetome,False,False,True,899
+106,A37mv_r,medioventral area 37,Visual,Cortex,Temporal lobe,Fusiform gyrus,Brainnetome,False,False,True,801
+107,A37lv_l,lateroventral area 37,DorsAttn,Cortex,Temporal lobe,Fusiform gyrus,Brainnetome,False,False,True,952
+108,A37lv_r,lateroventral area 37,Visual,Cortex,Temporal lobe,Fusiform gyrus,Brainnetome,False,False,True,890
+109,A35/36r_l,rostral area 35/36,Limbic,Cortex,Temporal lobe,Parahippocampal gyrus,Brainnetome,False,False,True,175
+110,A35/36r_r,rostral area 35/36,Limbic,Cortex,Temporal lobe,Parahippocampal gyrus,Brainnetome,False,False,True,143
+111,A35/36c_l,caudal area 35/36,Limbic,Cortex,Temporal lobe,Parahippocampal gyrus,Brainnetome,False,False,True,153
+112,A35/36c_r,caudal area 35/36,Limbic,Cortex,Temporal lobe,Parahippocampal gyrus,Brainnetome,False,False,True,159
+113,TL_l," area TL (lateral PPHC,posterior parahippocampal gyrus)",Visual,Cortex,Temporal lobe,Parahippocampal gyrus,Brainnetome,False,False,True,172
+114,TL_r," area TL (lateral PPHC,posterior parahippocampal gyrus)",Visual,Cortex,Temporal lobe,Parahippocampal gyrus,Brainnetome,False,False,True,134
+115,A28/34_l," area 28/34 (EC,entorhinal cortex)",Limbic,Cortex,Temporal lobe,Parahippocampal gyrus,Brainnetome,False,False,True,179
+116,A28/34_r," area 28/34 (EC,entorhinal cortex)",Limbic,Cortex,Temporal lobe,Parahippocampal gyrus,Brainnetome,False,False,True,120
+117,TI_l,area TI(temporal agranular insular cortex),Limbic,Cortex,Temporal lobe,Parahippocampal gyrus,Brainnetome,False,False,True,93
+118,TI_r,area TI(temporal agranular insular cortex),Limbic,Cortex,Temporal lobe,Parahippocampal gyrus,Brainnetome,False,False,True,130
+119,TH_l,area TH (medial PPHC),Visual,Cortex,Temporal lobe,Parahippocampal gyrus,Brainnetome,False,False,True,148
+120,TH_r,area TH (medial PPHC),Visual,Cortex,Temporal lobe,Parahippocampal gyrus,Brainnetome,False,False,True,157
+121,rpSTS_l,rostroposterior superior temporal sulcus,Default,Cortex,Temporal lobe,Posterior superior temporal sulcus,Brainnetome,False,False,True,319
+122,rpSTS_r,rostroposterior superior temporal sulcus,Default,Cortex,Temporal lobe,Posterior superior temporal sulcus,Brainnetome,False,False,True,351
+123,cpSTS_l,caudoposterior superior temporal sulcus,Default,Cortex,Temporal lobe,Posterior superior temporal sulcus,Brainnetome,False,False,True,353
+124,cpSTS_r,caudoposterior superior temporal sulcus,VentAttn,Cortex,Temporal lobe,Posterior superior temporal sulcus,Brainnetome,False,False,True,290
+125,A7r_l,rostral area 7,DorsAttn,Cortex,Parietal lobe,Superior parietal lobule,Brainnetome,False,False,True,386
+126,A7r_r,rostral area 7,DorsAttn,Cortex,Parietal lobe,Superior parietal lobule,Brainnetome,False,False,True,541
+127,A7c_l,caudal area 7,DorsAttn,Cortex,Parietal lobe,Superior parietal lobule,Brainnetome,False,False,True,478
+128,A7c_r,caudal area 7,DorsAttn,Cortex,Parietal lobe,Superior parietal lobule,Brainnetome,False,False,True,503
+129,A5l_l,lateral area 5,DorsAttn,Cortex,Parietal lobe,Superior parietal lobule,Brainnetome,False,False,True,482
+130,A5l_r,lateral area 5,DorsAttn,Cortex,Parietal lobe,Superior parietal lobule,Brainnetome,False,False,True,375
+131,A7pc_l,postcentral area 7,Somatomotor,Cortex,Parietal lobe,Superior parietal lobule,Brainnetome,True,False,False,502
+132,A7pc_r,postcentral area 7,Somatomotor,Cortex,Parietal lobe,Superior parietal lobule,Brainnetome,True,False,False,452
+133,A7ip_l,intraparietal area 7(hIP3),DorsAttn,Cortex,Parietal lobe,Superior parietal lobule,Brainnetome,False,False,True,391
+134,A7ip_r,intraparietal area 7(hIP3),DorsAttn,Cortex,Parietal lobe,Superior parietal lobule,Brainnetome,False,False,True,464
+135,A39c_l,caudal area 39(PGp),DorsAttn,Cortex,Parietal lobe,Inferior parietal lobule,Brainnetome,False,False,True,1048
+136,A39c_r,caudal area 39(PGp),DorsAttn,Cortex,Parietal lobe,Inferior parietal lobule,Brainnetome,False,False,True,1189
+137,A39rd_l,rostrodorsal area 39(Hip3),Frontoparietal,Cortex,Parietal lobe,Inferior parietal lobule,Brainnetome,False,False,True,831
+138,A39rd_r,rostrodorsal area 39(Hip3),Frontoparietal,Cortex,Parietal lobe,Inferior parietal lobule,Brainnetome,False,False,True,963
+139,A40rd_l,rostrodorsal area 40(PFt),DorsAttn,Cortex,Parietal lobe,Inferior parietal lobule,Brainnetome,False,False,True,1036
+140,A40rd_r,rostrodorsal area 40(PFt),Frontoparietal,Cortex,Parietal lobe,Inferior parietal lobule,Brainnetome,False,False,True,1052
+141,A40c_l,caudal area 40(PFm),Default,Cortex,Parietal lobe,Inferior parietal lobule,Brainnetome,False,False,True,1071
+142,A40c_r,caudal area 40(PFm),Frontoparietal,Cortex,Parietal lobe,Inferior parietal lobule,Brainnetome,False,False,True,1163
+143,A39rv_l,rostroventral area 39(PGa),Default,Cortex,Parietal lobe,Inferior parietal lobule,Brainnetome,False,False,True,1534
+144,A39rv_r,rostroventral area 39(PGa),Default,Cortex,Parietal lobe,Inferior parietal lobule,Brainnetome,False,False,True,1332
+145,A40rv_l,rostroventral area 40(PFop),VentAttn,Cortex,Parietal lobe,Inferior parietal lobule,Brainnetome,False,False,True,1060
+146,A40rv_r,rostroventral area 40(PFop),VentAttn,Cortex,Parietal lobe,Inferior parietal lobule,Brainnetome,False,False,True,1257
+147,A7m_l,medial area 7(PEp),DorsAttn,Cortex,Parietal lobe,Precuneus,Brainnetome,False,False,True,526
+148,A7m_r,medial area 7(PEp),Frontoparietal,Cortex,Parietal lobe,Precuneus,Brainnetome,False,False,True,441
+149,A5m_l,medial area 5(PEm),VentAttn,Cortex,Parietal lobe,Precuneus,Brainnetome,False,False,True,579
+150,A5m_r,medial area 5(PEm),DorsAttn,Cortex,Parietal lobe,Precuneus,Brainnetome,False,False,True,668
+151,dmPOS_l,dorsomedial parietooccipital sulcus(PEr),Default,Cortex,Parietal lobe,Precuneus,Brainnetome,False,False,True,873
+152,dmPOS_r,dorsomedial parietooccipital sulcus(PEr),Visual,Cortex,Parietal lobe,Precuneus,Brainnetome,False,False,True,1052
+153,A31_l,area 31 (Lc1),Default,Cortex,Parietal lobe,Precuneus,Brainnetome,False,False,True,768
+154,A31_r,area 31 (Lc1),Default,Cortex,Parietal lobe,Precuneus,Brainnetome,False,False,True,936
+155,A1/2/3ulhf_l," area 1/2/3(upper limb, head and face region)",Somatomotor,Cortex,Parietal lobe,Postcentral gyrus,Brainnetome,True,False,False,928
+156,A1/2/3ulhf_r," area 1/2/3(upper limb, head and face region)",Somatomotor,Cortex,Parietal lobe,Postcentral gyrus,Brainnetome,True,False,False,930
+157,A1/2/3tonIa_l,area 1/2/3(tongue and larynx region),Somatomotor,Cortex,Parietal lobe,Postcentral gyrus,Brainnetome,True,False,False,649
+158,A1/2/3tonIa_r,area 1/2/3(tongue and larynx region),Somatomotor,Cortex,Parietal lobe,Postcentral gyrus,Brainnetome,True,False,False,612
+159,A2_l,area 2,DorsAttn,Cortex,Parietal lobe,Postcentral gyrus,Brainnetome,False,False,True,723
+160,A2_r,area 2,Somatomotor,Cortex,Parietal lobe,Postcentral gyrus,Brainnetome,True,False,False,750
+161,A1/2/3tru_l,area 1/2/3(trunk region),Somatomotor,Cortex,Parietal lobe,Postcentral gyrus,Brainnetome,True,False,False,672
+162,A1/2/3tru_r,area 1/2/3(trunk region),Somatomotor,Cortex,Parietal lobe,Postcentral gyrus,Brainnetome,True,False,False,526
+163,G_l,hypergranular insula,Somatomotor,Cortex,Insular lobe,Insular gyrus,Brainnetome,True,False,False,328
+164,G_r,hypergranular insula,Somatomotor,Cortex,Insular lobe,Insular gyrus,Brainnetome,True,False,False,276
+165,vIa_l,ventral agranular insula,Default,Cortex,Insular lobe,Insular gyrus,Brainnetome,False,False,True,239
+166,vIa_r,ventral agranular insula,VentAttn,Cortex,Insular lobe,Insular gyrus,Brainnetome,False,False,True,210
+167,dIa_l,dorsal agranular insula,VentAttn,Cortex,Insular lobe,Insular gyrus,Brainnetome,False,False,True,254
+168,dIa_r,dorsal agranular insula,VentAttn,Cortex,Insular lobe,Insular gyrus,Brainnetome,False,False,True,223
+169,vId/vIg_l,ventral dysgranular and granular insula,VentAttn,Cortex,Insular lobe,Insular gyrus,Brainnetome,False,False,True,261
+170,vId/vIg_r,ventral dysgranular and granular insula,VentAttn,Cortex,Insular lobe,Insular gyrus,Brainnetome,False,False,True,287
+171,dIg_l,dorsal granular insula,VentAttn,Cortex,Insular lobe,Insular gyrus,Brainnetome,False,False,True,288
+172,dIg_r,dorsal granular insula,Somatomotor,Cortex,Insular lobe,Insular gyrus,Brainnetome,True,False,False,273
+173,dId_l,dorsal dysgranular insula,VentAttn,Cortex,Insular lobe,Insular gyrus,Brainnetome,False,False,True,392
+174,dId_r,dorsal dysgranular insula,VentAttn,Cortex,Insular lobe,Insular gyrus,Brainnetome,False,False,True,308
+175,A23d_l,dorsal area 23,Default,Cortex,Limbic lobe,Cingulate gyrus,Brainnetome,False,False,True,488
+176,A23d_r,dorsal area 23,Default,Cortex,Limbic lobe,Cingulate gyrus,Brainnetome,False,False,True,413
+177,A24rv_l,rostroventral area 24,Frontoparietal,Cortex,Limbic lobe,Cingulate gyrus,Brainnetome,False,False,True,207
+178,A24rv_r,rostroventral area 24,Default,Cortex,Limbic lobe,Cingulate gyrus,Brainnetome,False,False,True,338
+179,A32p_l,pregenual area 32,Default,Cortex,Limbic lobe,Cingulate gyrus,Brainnetome,False,False,True,475
+180,A32p_r,pregenual area 32,VentAttn,Cortex,Limbic lobe,Cingulate gyrus,Brainnetome,False,False,True,373
+181,A23v_l,ventral area 23,Default,Cortex,Limbic lobe,Cingulate gyrus,Brainnetome,False,False,True,355
+182,A23v_r,ventral area 23,Default,Cortex,Limbic lobe,Cingulate gyrus,Brainnetome,False,False,True,310
+183,A24cd_l,caudodorsal area 24,VentAttn,Cortex,Limbic lobe,Cingulate gyrus,Brainnetome,False,False,True,365
+184,A24cd_r,caudodorsal area 24,VentAttn,Cortex,Limbic lobe,Cingulate gyrus,Brainnetome,False,False,True,249
+185,A23c_l,caudal area 24,VentAttn,Cortex,Limbic lobe,Cingulate gyrus,Brainnetome,False,False,True,604
+186,A23c_r,caudal area 24,VentAttn,Cortex,Limbic lobe,Cingulate gyrus,Brainnetome,False,False,True,547
+187,A32sg_l,subgenual area 32,Default,Cortex,Limbic lobe,Cingulate gyrus,Brainnetome,False,False,True,636
+188,A32sg_r,subgenual area 32,Default,Cortex,Limbic lobe,Cingulate gyrus,Brainnetome,False,False,True,408
+189,cLinG_l,caudal lingual gyrus,Visual,Cortex,Occipital lobe,MedioVentral occipital cortex,Brainnetome,False,False,True,492
+190,cLinG_r,caudal lingual gyrus,Visual,Cortex,Occipital lobe,MedioVentral occipital cortex,Brainnetome,False,False,True,603
+191,rCunG_l,rostral cuneus gyrus,Visual,Cortex,Occipital lobe,MedioVentral occipital cortex,Brainnetome,False,False,True,785
+192,rCunG_r,rostral cuneus gyrus,Visual,Cortex,Occipital lobe,MedioVentral occipital cortex,Brainnetome,False,False,True,837
+193,cCunG_l,caudal cuneus gyrus,Visual,Cortex,Occipital lobe,MedioVentral occipital cortex,Brainnetome,False,False,True,613
+194,cCunG_r,caudal cuneus gyrus,Visual,Cortex,Occipital lobe,MedioVentral occipital cortex,Brainnetome,False,False,True,624
+195,rLinG_l,rostral lingual gyrus,Visual,Cortex,Occipital lobe,MedioVentral occipital cortex,Brainnetome,False,False,True,760
+196,rLinG_r,rostral lingual gyrus,Visual,Cortex,Occipital lobe,MedioVentral occipital cortex,Brainnetome,False,False,True,861
+197,vmPOS_l,ventromedial parietooccipital sulcus,Visual,Cortex,Occipital lobe,MedioVentral occipital cortex,Brainnetome,False,False,True,985
+198,vmPOS_r,ventromedial parietooccipital sulcus,Visual,Cortex,Occipital lobe,MedioVentral occipital cortex,Brainnetome,False,False,True,1033
+199,mOccG_l,middle occipital gyrus,Visual,Cortex,Occipital lobe,Lateral occipital cortex,Brainnetome,False,False,True,837
+200,mOccG_r,middle occipital gyrus,Visual,Cortex,Occipital lobe,Lateral occipital cortex,Brainnetome,False,False,True,858
+201,V5/MT/plus_l,area V5/MT+,Visual,Cortex,Occipital lobe,Lateral occipital cortex,Brainnetome,False,False,True,751
+202,V5/MT/plus_r,area V5/MT+,Visual,Cortex,Occipital lobe,Lateral occipital cortex,Brainnetome,False,False,True,807
+203,OPC_l,occipital polar cortex,Visual,Cortex,Occipital lobe,Lateral occipital cortex,Brainnetome,False,False,True,995
+204,OPC_r,occipital polar cortex,Visual,Cortex,Occipital lobe,Lateral occipital cortex,Brainnetome,False,False,True,991
+205,iOccG_l,inferior occipital gyrus,Visual,Cortex,Occipital lobe,Lateral occipital cortex,Brainnetome,False,False,True,1024
+206,iOccG_r,inferior occipital gyrus,Visual,Cortex,Occipital lobe,Lateral occipital cortex,Brainnetome,False,False,True,945
+207,msOccG_l,medial superior occipital gyrus,Visual,Cortex,Occipital lobe,Lateral occipital cortex,Brainnetome,False,False,True,625
+208,msOccG_r,medial superior occipital gyrus,Visual,Cortex,Occipital lobe,Lateral occipital cortex,Brainnetome,False,False,True,645
+209,lsOccG_l,lateral superior occipital gyrus,Visual,Cortex,Occipital lobe,Lateral occipital cortex,Brainnetome,False,False,True,579
+210,lsOccG_r,lateral superior occipital gyrus,DorsAttn,Cortex,Occipital lobe,Lateral occipital cortex,Brainnetome,False,False,True,770
+211,mAmyg_l,medial amygdala,Subcortex,Subcortex and brainstem,Subcortical nuclei,Amygdala,Brainnetome,False,False,True,170
+212,mAmyg_r,medial amygdala,Subcortex,Subcortex and brainstem,Subcortical nuclei,Amygdala,Brainnetome,False,False,True,217
+213,lAmyg_l,lateral amygdala,Subcortex,Subcortex and brainstem,Subcortical nuclei,Amygdala,Brainnetome,False,False,True,86
+214,lAmyg_r,lateral amygdala,Subcortex,Subcortex and brainstem,Subcortical nuclei,Amygdala,Brainnetome,False,False,True,134
+215,rHipp_l,rostral hippocampus,Subcortex,Subcortex and brainstem,Subcortical nuclei,Hippocampus,Brainnetome,False,False,True,574
+216,rHipp_r,rostral hippocampus,Subcortex,Subcortex and brainstem,Subcortical nuclei,Hippocampus,Brainnetome,False,False,True,486
+217,cHipp_l,caudal hippocampus,Subcortex,Subcortex and brainstem,Subcortical nuclei,Hippocampus,Brainnetome,False,False,True,588
+218,cHipp_r,caudal hippocampus,Subcortex,Subcortex and brainstem,Subcortical nuclei,Hippocampus,Brainnetome,False,False,True,613
+219,mPFtha_l,medial pre-frontal thalamus,Subcortex,Subcortex and brainstem,Subcortical nuclei,Thalamus,Brainnetome,False,False,True,209
+220,mPFtha_r,medial pre-frontal thalamus,Subcortex,Subcortex and brainstem,Subcortical nuclei,Thalamus,Brainnetome,False,False,True,182
+221,mPMtha_l,pre-motor thalamus,Subcortex,Subcortex and brainstem,Subcortical nuclei,Thalamus,Brainnetome,False,False,True,126
+222,mPMtha_r,pre-motor thalamus,Subcortex,Subcortex and brainstem,Subcortical nuclei,Thalamus,Brainnetome,False,False,True,196
+223,Stha_l,sensory thalamus,Subcortex,Subcortex and brainstem,Subcortical nuclei,Thalamus,Brainnetome,False,False,True,143
+224,Stha_r,sensory thalamus,Subcortex,Subcortex and brainstem,Subcortical nuclei,Thalamus,Brainnetome,False,False,True,150
+225,rTtha_l,rostral temporal thalamus,Subcortex,Subcortex and brainstem,Subcortical nuclei,Thalamus,Brainnetome,False,False,True,204
+226,rTtha_r,rostral temporal thalamus,Subcortex,Subcortex and brainstem,Subcortical nuclei,Thalamus,Brainnetome,False,False,True,217
+227,PPtha_l,posterior parietal thalamus,Subcortex,Subcortex and brainstem,Subcortical nuclei,Thalamus,Brainnetome,False,False,True,246
+228,PPtha_r,posterior parietal thalamus,Subcortex,Subcortex and brainstem,Subcortical nuclei,Thalamus,Brainnetome,False,False,True,217
+229,Otha_l,occipital thalamus,Subcortex,Subcortex and brainstem,Subcortical nuclei,Thalamus,Brainnetome,False,False,True,237
+230,Otha_r,occipital thalamus,Subcortex,Subcortex and brainstem,Subcortical nuclei,Thalamus,Brainnetome,False,False,True,166
+231,cTtha_l,caudal temporal thalamus,Subcortex,Subcortex and brainstem,Subcortical nuclei,Thalamus,Brainnetome,False,False,True,204
+232,cTtha_r,caudal temporal thalamus,Subcortex,Subcortex and brainstem,Subcortical nuclei,Thalamus,Brainnetome,False,False,True,147
+233,lPFtha_l,lateral pre-frontal thalamus,Subcortex,Subcortex and brainstem,Subcortical nuclei,Thalamus,Brainnetome,False,False,True,358
+234,lPFtha_r,lateral pre-frontal thalamus,Subcortex,Subcortex and brainstem,Subcortical nuclei,Thalamus,Brainnetome,False,False,True,273
+235,Pu_l,putamen,Subcortex,Subcortex and brainstem,Subcortical nuclei,Basal ganglia,CIT168,False,False,True,964
+236,Pu_r,putamen,Subcortex,Subcortex and brainstem,Subcortical nuclei,Basal ganglia,CIT168,False,False,True,972
+237,Ca_l,caudate nucleus,Subcortex,Subcortex and brainstem,Subcortical nuclei,Basal ganglia,CIT168,False,False,True,865
+238,Ca_r,caudate nucleus,Subcortex,Subcortex and brainstem,Subcortical nuclei,Basal ganglia,CIT168,False,False,True,874
+239,NAC_l,nucleus accumbens,Subcortex,Subcortex and brainstem,Subcortical nuclei,Basal ganglia,CIT168,False,False,True,68
+240,NAC_r,nucleus accumbens,Subcortex,Subcortex and brainstem,Subcortical nuclei,Basal ganglia,CIT168,False,False,True,77
+241,Gpe_l,external globus pallidus,Subcortex,Subcortex and brainstem,Subcortical nuclei,Basal ganglia,CIT168,False,False,True,156
+242,Gpe_r,external globus pallidus,Subcortex,Subcortex and brainstem,Subcortical nuclei,Basal ganglia,CIT168,False,False,True,150
+243,Gpi_l,internal globus pallidus,Subcortex,Subcortex and brainstem,Subcortical nuclei,Basal ganglia,CIT168,False,False,True,79
+244,Gpi_r,internal globus pallidus,Subcortex,Subcortex and brainstem,Subcortical nuclei,Basal ganglia,CIT168,False,False,True,76
+245,SN_l,substantia nigra,Subcortex,Subcortex and brainstem,Subcortical nuclei,Basal ganglia,CIT168,False,False,True,73
+246,SN_r,substantia nigra,Subcortex,Subcortex and brainstem,Subcortical nuclei,Basal ganglia,CIT168,False,False,True,74
+247,RN_l,red nucleus,Subcortex,Subcortex and brainstem,Subcortical nuclei,Basal ganglia,CIT168,False,False,True,53
+248,RN_r,red nucleus,Subcortex,Subcortex and brainstem,Subcortical nuclei,Basal ganglia,CIT168,False,False,True,61
+249,VTA_l,ventral tegmental area,Subcortex,Subcortex and brainstem,Subcortical nuclei,Basal ganglia,CIT168,False,False,True,24
+250,VTA_r,ventral tegmental area,Subcortex,Subcortex and brainstem,Subcortical nuclei,Basal ganglia,CIT168,False,False,True,22
+251,STH_l,subthalamic nucleus,Subcortex,Subcortex and brainstem,Subcortical nuclei,Basal ganglia,CIT168,False,False,True,28
+252,STH_r,subthalamic nucleus,Subcortex,Subcortex and brainstem,Subcortical nuclei,Basal ganglia,CIT168,False,False,True,30
+253,Left_I_IV,,Cerebellum,Cerebellum,Cerebellum,Cerebellum,SUIT-related,False,True,False,554
+254,Right_I_IV,,Cerebellum,Cerebellum,Cerebellum,Cerebellum,SUIT-related,False,True,False,591
+255,Left_V,,Cerebellum,Cerebellum,Cerebellum,Cerebellum,SUIT-related,False,True,False,713
+256,Right_V,,Cerebellum,Cerebellum,Cerebellum,Cerebellum,SUIT-related,False,True,False,656
+257,Left_VI,,Cerebellum,Cerebellum,Cerebellum,Cerebellum,SUIT-related,False,True,False,1507
+258,Vermis_VI,,Cerebellum,Cerebellum,Cerebellum,Cerebellum,SUIT-related,False,True,False,305
+259,Right_VI,,Cerebellum,Cerebellum,Cerebellum,Cerebellum,SUIT-related,False,True,False,1360
+260,Left_CrusI,,Cerebellum,Cerebellum,Cerebellum,Cerebellum,SUIT-related,False,True,False,2219
+261,Right_CrusI,,Cerebellum,Cerebellum,Cerebellum,Cerebellum,SUIT-related,False,True,False,2160
+262,Left_CrusII,,Cerebellum,Cerebellum,Cerebellum,Cerebellum,SUIT-related,False,True,False,1704
+263,Vermis_CrusII,,Cerebellum,Cerebellum,Cerebellum,Cerebellum,SUIT-related,False,True,False,62
+264,Right_CrusII,,Cerebellum,Cerebellum,Cerebellum,Cerebellum,SUIT-related,False,True,False,1591
+265,Left_VIIb,,Cerebellum,Cerebellum,Cerebellum,Cerebellum,SUIT-related,False,True,False,868
+266,Vermis_VIIb,,Cerebellum,Cerebellum,Cerebellum,Cerebellum,SUIT-related,False,True,False,29
+267,Right_VIIb,,Cerebellum,Cerebellum,Cerebellum,Cerebellum,SUIT-related,False,True,False,888
+268,Left_VIIIa,,Cerebellum,Cerebellum,Cerebellum,Cerebellum,SUIT-related,False,True,False,861
+269,Vermis_VIIIa,,Cerebellum,Cerebellum,Cerebellum,Cerebellum,SUIT-related,False,True,False,195
+270,Right_VIIIa,,Cerebellum,Cerebellum,Cerebellum,Cerebellum,SUIT-related,False,True,False,824
+271,Left_VIIIb,,Cerebellum,Cerebellum,Cerebellum,Cerebellum,SUIT-related,False,True,False,700
+272,Vermis_VIIIb,,Cerebellum,Cerebellum,Cerebellum,Cerebellum,SUIT-related,False,True,False,96
+273,Right_VIIIb,,Cerebellum,Cerebellum,Cerebellum,Cerebellum,SUIT-related,False,True,False,691
+274,Left_IX,,Cerebellum,Cerebellum,Cerebellum,Cerebellum,SUIT-related,False,True,False,565
+275,Vermis_IX,,Cerebellum,Cerebellum,Cerebellum,Cerebellum,SUIT-related,False,True,False,118
+276,Right_IX,,Cerebellum,Cerebellum,Cerebellum,Cerebellum,SUIT-related,False,True,False,600
+277,Left_X,,Cerebellum,Cerebellum,Cerebellum,Cerebellum,SUIT-related,False,True,False,111
+278,Vermis_X,,Cerebellum,Cerebellum,Cerebellum,Cerebellum,SUIT-related,False,True,False,65
+279,Right_X,,Cerebellum,Cerebellum,Cerebellum,Cerebellum,SUIT-related,False,True,False,115
+280,Left_Dentate,,Cerebellum,Cerebellum,Cerebellum,Cerebellum,SUIT-related,False,True,False,271
+281,Right_Dentate,,Cerebellum,Cerebellum,Cerebellum,Cerebellum,SUIT-related,False,True,False,288
+282,Left_Interposed,,Cerebellum,Cerebellum,Cerebellum,Cerebellum,SUIT-related,False,True,False,41
+283,Right_Interposed,,Cerebellum,Cerebellum,Cerebellum,Cerebellum,SUIT-related,False,True,False,42

@@ -1,25 +1,29 @@
 cff-version: 1.2.0
-message: "If you use this code, please cite the paper and this software archive."
-title: "PD cortico-cerebellar connectome-gradient study — analysis code"
+message: "Please cite this version when using the analysis code or aggregate results."
+type: software
+title: "Altered whole-brain connectome gradients and associated functional connectivity changes in Parkinson’s disease"
 authors:
-  - family-names: "[PLACEHOLDER]"
-    given-names: "[PLACEHOLDER]"
-    orcid: "https://orcid.org/[PLACEHOLDER]"
-    affiliation: "Beijing Tiantan Hospital, Capital Medical University"
-version: "1.0.0"
-date-released: "[PLACEHOLDER — release date]"
-license: "[PLACEHOLDER — e.g. MIT]"
-repository-code: "https://github.com/[PLACEHOLDER]"
-identifiers:
-  - type: doi
-    value: "[PLACEHOLDER — Zenodo DOI]"
-    description: "Zenodo archive of this release"
-preferred-citation:
-  type: article
-  title: "[PLACEHOLDER — paper title]"
-  authors:
-    - family-names: "[PLACEHOLDER]"
-      given-names: "[PLACEHOLDER]"
-  journal: "[PLACEHOLDER — e.g. Nature Communications]"
-  year: [PLACEHOLDER]
-  doi: "[PLACEHOLDER — article DOI]"
+  - family-names: Zhang
+    given-names: Junjiao
+  - family-names: Zhang
+    given-names: Zhijin
+  - family-names: Cui
+    given-names: Yusha
+  - family-names: Yan
+    given-names: Rui
+  - family-names: Zheng
+    given-names: Xiaoqing
+  - family-names: Yin
+    given-names: Yixuan
+  - family-names: Lam
+    given-names: Joyce S. T.
+  - family-names: Feng
+    given-names: Tao
+    orcid: "https://orcid.org/0000-0002-8530-4622"
+  - family-names: Su
+    given-names: Dongning
+version: "2026.11.19"
+date-released: 2026-11-19
+repository-code: "https://github.com/zhanhjunjiao-a11y/pd-g3-connectome-gradient"
+url: "https://github.com/zhanhjunjiao-a11y/pd-g3-connectome-gradient"
+license: MIT

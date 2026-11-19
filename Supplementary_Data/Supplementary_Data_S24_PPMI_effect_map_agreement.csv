@@ -1,0 +1,10 @@
+﻿model,gradient,n,n_PD,n_HC,covariates,n_regions,spearman_rho,p_wild_two_sided,q_BH_3,null_hypothesis,n_null,null_seed
+age_sex_motion,G1,438,359,79,age_final + sex + meanFD_final,283,0.0350291357951483,0.7429,0.7429,"No external regional group effects, conditional on fixed discovery map and design",9999,20261030
+age_sex_motion,G2,438,359,79,age_final + sex + meanFD_final,283,0.3325493900172707,0.0103,0.0309,"No external regional group effects, conditional on fixed discovery map and design",9999,20261030
+age_sex_motion,G3,438,359,79,age_final + sex + meanFD_final,283,0.2673546731104619,0.055,0.0825,"No external regional group effects, conditional on fixed discovery map and design",9999,20261030
+scanner_adjusted_motion,G1,438,359,79,age_final + sex + meanFD_final + scanner_exact fixed effects,283,0.0267474329474327,0.7995,0.7995,"No external regional group effects, conditional on fixed discovery map and design",9999,20261030
+scanner_adjusted_motion,G2,438,359,79,age_final + sex + meanFD_final + scanner_exact fixed effects,283,0.3371180394145944,0.0109,0.03075,"No external regional group effects, conditional on fixed discovery map and design",9999,20261030
+scanner_adjusted_motion,G3,438,359,79,age_final + sex + meanFD_final + scanner_exact fixed effects,283,0.3110541302094198,0.0205,0.03075,"No external regional group effects, conditional on fixed discovery map and design",9999,20261030
+site_shared_motion,G1,382,304,78,age_final + sex + meanFD_final + blinded clinical SITE_final fixed effects,283,0.0167963649879125,0.8715,0.8715,"No external regional group effects, conditional on fixed discovery map and design",9999,20261030
+site_shared_motion,G2,382,304,78,age_final + sex + meanFD_final + blinded clinical SITE_final fixed effects,283,0.3640830775193224,0.0045,0.0135,"No external regional group effects, conditional on fixed discovery map and design",9999,20261030
+site_shared_motion,G3,382,304,78,age_final + sex + meanFD_final + blinded clinical SITE_final fixed effects,283,0.3004931324659482,0.0213,0.03195,"No external regional group effects, conditional on fixed discovery map and design",9999,20261030

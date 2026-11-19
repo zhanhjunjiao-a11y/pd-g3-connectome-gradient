@@ -1,0 +1,98 @@
+[
+  {
+    "file": "modules/connectivity/run.py",
+    "sha256": "131035bd795c92999f8e83729afd23c8c281a588771ba077fc2b0fb07952ece0",
+    "source_unchanged": true
+  },
+  {
+    "file": "modules/core/run.py",
+    "sha256": "735b8b3a16f2983f4642cc3430ab95c672451cf4b9ee8b2db71ec91f61278e03",
+    "source_unchanged": true
+  },
+  {
+    "file": "modules/external/common.py",
+    "sha256": "68edc0c99ba8defb71eda0ca59879c37ff0eb81cc65a45c32dc661a3dd33aedd",
+    "source_unchanged": true
+  },
+  {
+    "file": "modules/external/descriptives.py",
+    "sha256": "d7dadab444f751dcdd47b70238664e61c67eb7dfec885d3ffe1b2fe2a54bc310",
+    "source_unchanged": true
+  },
+  {
+    "file": "modules/external/endpoints.py",
+    "sha256": "c2aae13f8df7629b467bfa6827a4a6a928e3264d6ee8bc7c448621f7100a344c",
+    "source_unchanged": false,
+    "change": "Reporting role only: scanner_adjusted_motion is primary; no model computation changed."
+  },
+  {
+    "file": "modules/external/map_validation.py",
+    "sha256": "487cc334afe419e8d18d43c64d7f06c6a4ab0323d6c76e29fb53575c05c890f9",
+    "source_unchanged": true
+  },
+  {
+    "file": "modules/external/table1.py",
+    "sha256": "c53b8c462de767f5117065951555aa9696fdcec8776fbb889cc084e23f7fbc95",
+    "source_unchanged": true
+  },
+  {
+    "file": "modules/figures/build_figure2.py",
+    "sha256": "1aca226fc8538500673ad924095c11c43ec906d70b2fa76420d8665256059daa",
+    "source_unchanged": true
+  },
+  {
+    "file": "modules/figures/build_figure3.py",
+    "sha256": "ddcafb4a56212aff52c0fc9d61ba4ace8aad723934cf3d5cf4144e8c649f41b9",
+    "source_unchanged": true
+  },
+  {
+    "file": "modules/figures/build_figure4.py",
+    "sha256": "bd81c6b08e9a9b26c40d92c303530c7349bbe92579977ae5386aee097f457137",
+    "source_unchanged": true
+  },
+  {
+    "file": "modules/figures/build_supplement3.py",
+    "sha256": "d62512eb77dfb8546b44f806dcf37783c1e2245c5495e3e701609e0ad17fea0c",
+    "source_unchanged": true
+  },
+  {
+    "file": "modules/figures/cortical_layers.py",
+    "sha256": "3ecde6630c8e4f1ac7114210658c4919498b06b3f90b4113afebe44d16f85538",
+    "source_unchanged": true
+  },
+  {
+    "file": "modules/figures/figure1_build.py",
+    "sha256": "14c7a8707e60bd68dc97a3baf221b32efe71940ac999ec3823f7a94f0b6173bc",
+    "source_unchanged": true
+  },
+  {
+    "file": "modules/figures/runtime_init.py",
+    "sha256": "976c5e81b5b029a5a8d8c3cacaf816463b90a19664984b08a225fab3c9c9d56c",
+    "source_unchanged": true
+  },
+  {
+    "file": "modules/figures/supplement1_plot.py",
+    "sha256": "aa3a2a1ed5a5f09e6542b6c76774267886132565305bc65d69c3247984a94f72",
+    "source_unchanged": true
+  },
+  {
+    "file": "modules/figures/supplement2_plot.py",
+    "sha256": "e8f49ef10cb1f55678ac527a5771764e5784815bd5818fb4a00d48dd7b3d5875",
+    "source_unchanged": true
+  },
+  {
+    "file": "modules/figures/supplements.py",
+    "sha256": "bada6a4129683f67a2abc85c5cbd8a62682efc1b96f44d315b4b340c087e37d3",
+    "source_unchanged": true
+  },
+  {
+    "file": "modules/external/run.py",
+    "sha256": "454d3aa0b954d43d3db450304b22a2a4c1a842025307c147a656e7beb2e63db0",
+    "source_unchanged": true
+  },
+  {
+    "file": "modules/figures/run.py",
+    "sha256": "01a595a616a490a60ce0ba4467f2985ee1e1cae19b8cef6c8e6a2c7a898916f6",
+    "source_unchanged": true
+  }
+]
