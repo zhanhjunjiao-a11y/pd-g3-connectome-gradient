@@ -14,6 +14,8 @@ python -m gzip -d Supplementary_Data/Supplementary_Data_S03_wholebrain_edge_FC.c
 
 This restores `Supplementary_Data_S03_wholebrain_edge_FC.csv`, the filename used in the data dictionary. Its SHA-256 is `85455beb0b31759546140177d09543af1bee939b8e8dc42b3f50c7398f95d8a0`. Row counts, field definitions and numerical results apply to this decompressed table.
 
+The consolidated [Excel workbook](Supplementary_Data_S01-S26.xlsx) contains sheets S01–S26, a contents index, the data dictionary and analysis notes. Original CSV files remain available for analysis use (S03 is gzip-compressed). The workbook preserves source row and column order; numeric columns containing more than 15 significant digits are stored as text to avoid Excel precision loss.
+
 ## File index
 
 Row counts exclude the header. Data-file numbers and Supplementary Table numbers are separate numbering systems.

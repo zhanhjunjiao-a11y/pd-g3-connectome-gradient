@@ -6,6 +6,8 @@ Version 2026.11.19 accompanies the current manuscript. The discovery sample incl
 
 ## Repository contents
 
+The [consolidated Excel workbook](Supplementary_Data/Supplementary_Data_S01-S26.xlsx) provides all 26 result tables as sheets S01–S26, together with a contents index, field definitions and analysis notes. It is the single spreadsheet attachment for journal submission. The original CSV files below remain available for analysis use.
+
 - [Supplementary_Data/](Supplementary_Data/) contains all 26 Supplementary Data S01–S26 result tables, with S03 supplied as a gzip-compressed CSV, together with their [data dictionary](Supplementary_Data/Data_dictionary.csv) and [analysis notes](Supplementary_Data/README.md).
 - [modules/core/](modules/core/) contains regional-gradient, system, paired and clinical analyses.
 - [modules/connectivity/](modules/connectivity/) contains FC and gradient calculations, regional and system connectivity analyses, and connectivity-profile analyses.
@@ -23,7 +25,7 @@ Version 2026.11.19 accompanies the current manuscript. The discovery sample incl
 python -m gzip -d Supplementary_Data/Supplementary_Data_S03_wholebrain_edge_FC.csv.gz
 ```
 
-The data dictionary refers to the decompressed filename. The SHA-256 of the restored CSV is `85455beb0b31759546140177d09543af1bee939b8e8dc42b3f50c7398f95d8a0`. The manuscript’s submission attachment contains this same table as an uncompressed CSV.
+The data dictionary refers to the decompressed filename. The SHA-256 of the restored CSV is `85455beb0b31759546140177d09543af1bee939b8e8dc42b3f50c7398f95d8a0`. The manuscript’s consolidated Excel attachment contains the same table on sheet S03.
 
 ## Analysis definitions
 
